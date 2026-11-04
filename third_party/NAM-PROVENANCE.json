@@ -1,0 +1,13 @@
+{
+  "reference_project": "NeuralAmpModelerCore",
+  "url": "https://github.com/sdatkinson/NeuralAmpModelerCore",
+  "commit": "0b3d3c97b0859a3a8c92a8628c4dd89a25eb5842",
+  "license": "MIT",
+  "license_file": "research/catalyst-nam/external/NeuralAmpModelerCore/LICENSE",
+  "reference_only": "Catalyst ARM kernel sources are the project sources under research/catalyst-nam; the official core is included as the host comparison reference.",
+  "external_reference_dependencies": {
+    "eigen_commit": "bc3b39870ecb690a623a3f49149a358b95c5781d",
+    "eigen_url": "https://gitlab.com/libeigen/eigen",
+    "other_dependencies": "See the upstream .gitmodules. Vendored Eigen, nlohmann and AudioDSPTools trees are not included."
+  }
+}

@@ -1,0 +1,17 @@
+*.exe
+*.dll
+*.bin
+*.ctf
+*.elf
+*.o
+*.lib
+*.pdb
+*.nam
+*.wav
+*.f32
+*.log
+__pycache__/
+*-cache/
+.tools/
+hardware-trials/
+backups/

@@ -1,0 +1,18 @@
+Included example resources / Recursos de prueba incluidos
+
+The application owner explicitly selected the following prepared demo resources
+for distribution inside the single EXE:
+
+- NAM 1 and NAM 2: the same capture supplied as "Developed by Conr4d.nam".
+  These two prepared positions are identical. Initial input: -5 dB; manual
+  output: -3 dB. Credit for the supplied example: conr4d / conr4daudio.
+- IR1, IR2 and IR3: the supplied P00, P05 and P10 Zilla V30 examples, prepared
+  with 80 Hz Low Cut and 8 kHz High Cut.
+
+These model/IR resources are not relicensed as MIT by the software licence.
+Their respective authors retain their rights. The public source snapshot does
+not include the owner's original NAM/WAV files, local paths or preset backups.
+
+El propietario de la aplicación indicó expresamente esos ejemplos para la
+distribución integrada. Los recursos conservan los derechos de sus respectivos
+autores; la licencia del programa no cambia la de las capturas o los IR.

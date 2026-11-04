@@ -1,0 +1,1 @@
+namespace CFEditor { static class InitialCFInfo { public const string TransportHash="a687429af65fa1b0568a14fd79f9bc8c33619021600a99fe07854d45cacc3bcb"; public static readonly int[] ApprovedProducts=new int[]{2424833}; } }

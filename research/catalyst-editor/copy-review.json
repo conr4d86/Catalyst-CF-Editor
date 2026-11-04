@@ -1,0 +1,22 @@
+{
+  "Selecciona tu archivo WAV": "Selecciona un archivo WAV",
+  "Selecciona tu archivo NAM": "Selecciona un archivo NAM",
+  "Cargar IR": "Cargar IR…",
+  "Cargar NAM": "Cargar NAM…",
+  "Esperando conexión de Ampli": "Esperando conexión del amplificador",
+  "Esperando conexión de Ampli.": "Esperando conexión del amplificador.",
+  "✓ Ampli conectado por USB": "✓ Amplificador conectado por USB",
+  "Conecta el Catalyst por USB y enciéndelo. Cierra Catalyst Edit.": "Conecta el amplificador por USB, enciéndelo y cierra Catalyst Edit.",
+  "Conservar IR (sin WAV cargados)": "Conservar los IR anteriores",
+  "A2 Lite · mono · 48 kHz · CHIME GROUP 1": "A2 Lite · Mono · 48 kHz · Chime, grupo 1",
+  "Entrada calibrada: −12 dB · Salida ajustable": "Entrada: −12 dB · Volumen de salida ajustable",
+  "Carga una captura A2 Lite. Sin NAM se instala CHIME original.": "Carga una captura A2 Lite. Sin NAM se restaura el modelo Chime original.",
+  "Carga tus WAV en IR1, IR2 e IR3.": "Carga uno, dos o tres archivos WAV.",
+  "Ranura vacía: se conservará su pantalla de fábrica al instalar.": "Esta ranura conservará la pantalla de fábrica al instalar.",
+  "Low Cut": "Corte de graves",
+  "High Cut": "Corte de agudos",
+  "IR válido. El botón guarda la copia de presets y prepara la instalación.": "IR válido. Pulsa «Instalar los IR» para crear la copia de seguridad e iniciar la instalación.",
+  "NAM válido. Entrada −12 dB y volumen de salida independiente.": "NAM válido. La entrada y el volumen de salida se ajustan por separado.",
+  "Los ajustes pendientes no coinciden con el firmware preparado": "Los ajustes pendientes no coinciden con el firmware preparado.",
+  "Apaga y enciende tu ampli": "Apaga y enciende el amplificador"
+}

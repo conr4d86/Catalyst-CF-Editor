@@ -1,0 +1,38 @@
+Catalyst CF Editor
+Developed by conr4d / conr4daudio.
+Independent, unofficial and experimental. Not affiliated with Line 6 or Yamaha.
+
+Original editor, transport, firmware adaptation and pedal approximation code:
+Copyright (c) 2026 conr4d and contributors, MIT; see LICENSE.
+
+NAM architecture and weight-order reference:
+sdatkinson/NeuralAmpModelerCore
+https://github.com/sdatkinson/NeuralAmpModelerCore
+Reference commit: 0b3d3c97b0859a3a8c92a8628c4dd89a25eb5842
+MIT License, Copyright (c) 2023 Steven Atkinson.
+The reference sources and their licence are in
+research/catalyst-nam/external/NeuralAmpModelerCore; provenance is recorded in
+third_party/NAM-PROVENANCE.json.
+Catalyst uses its own Cortex-M7 A2 Lite implementation. Do not attribute it to
+POD Go's separate GPL carrier or claim that it contains POD Go/Helix pedal code.
+
+EP Boost, 808 and SD-1 are original approximations, not extracted manufacturer
+algorithms. Product names and trademarks identify references only.
+
+The single Windows EXE includes manufacturer runtime DLLs, a Catalyst 2.02 base
+and the integrated custom engine. Manufacturer components, Microsoft libraries
+and product photography retain their original ownership and notices. The MIT
+licence above does not grant rights to those components. Runtime DLLs are loaded
+in process; they are not additional helper EXEs.
+
+The manufacturer's original firmware SHA256 is:
+f9fe2482e561bef8a04128a38af89cadee4f8d06071b06a9053e36c206471ae8
+
+Included example resources are separate from the software licence; see
+models/NOTICE.txt. Original project artwork is supplied for this application.
+The amplifier product photograph originates from the manufacturer's Catalyst page:
+https://line6.com/catalyst-guitar-amps/
+
+Source builds need separately supplied manufacturer/runtime inputs. They are
+not part of the public source snapshot. See docs/BUILDING.md. End users download
+the EXE; they do not need to build or obtain another custom firmware separately.

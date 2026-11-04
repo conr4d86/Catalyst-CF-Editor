@@ -1,0 +1,19 @@
+using System;using System.Linq;using System.IO;using System.Threading;using System.Threading.Tasks;using System.Web.Script.Serialization;
+namespace CFEditor {
+// Explicit read-only post-failure snapshot. No SDK, controls, preset changes,
+// firmware or asset upload. HELLO only establishes the volatile read session.
+static class StateSnapshotTrial {
+ internal static int Run(string output,bool restoreFactory=false){return Read(Path.GetFullPath(output),restoreFactory).GetAwaiter().GetResult();}
+ static async Task<int> Read(string output,bool restoreFactory){IAssetDataConnection channel=null;AssetMidiExchange exchange=null;AssetReceipt[] names=new AssetReceipt[2];PreampSettings settings=null,before=null;uint index=0,revision=0;Exception error=null;bool closed=false;
+  try{NativeBackend.RefuseOtherUSBApps();var binding=AssetPortDiscovery.Discover(2424833,false);channel=await AssetPortOwner.Open(binding,new WinmmAssetPortDriver(),()=>new Line6USBLease()).ConfigureAwait(false);exchange=new AssetMidiExchange(channel);await AssetDeviceIdentity.Read(exchange,2424833,CancellationToken.None,true).ConfigureAwait(false);
+   uint nonce=0x71008201;var hello=new AssetMessage{Product=2424833,Opcode=1,Transaction=nonce};var reply=AssetWire.Decode(await exchange.Exchange(AssetWire.Encode(hello),1500,CancellationToken.None).ConfigureAwait(false));if(!AssetWire.RepliesTo(hello,reply)||reply.Data.Length!=20||BitConverter.ToUInt32(reply.Data,0)!=0)throw new IOException("No se ha aceptado la sesión de lectura.");
+   for(uint attempt=0;attempt<20;attempt++){var q=new AssetMessage{Product=2424833,Session=nonce,Opcode=9,Transaction=nonce+1+attempt};reply=AssetWire.Decode(await exchange.Exchange(AssetWire.Encode(q),1500,CancellationToken.None).ConfigureAwait(false));if(!AssetWire.RepliesTo(q,reply)||reply.Data.Length!=44)throw new InvalidDataException("Respuesta de preamp incorrecta.");if(BitConverter.ToUInt32(reply.Data,0)==0){index=BitConverter.ToUInt32(reply.Data,4);revision=BitConverter.ToUInt32(reply.Data,8);var data=new byte[32];Buffer.BlockCopy(reply.Data,12,data,0,32);settings=PreampSettings.Decode(data);break;}await Task.Delay(25).ConfigureAwait(false);}
+   if(settings==null)throw new IOException("El preamp no ha confirmado un estado estable.");
+   if(restoreFactory){before=settings.Copy();var next=settings.Copy();next.Type=0;var q=new AssetMessage{Product=2424833,Session=nonce,Opcode=10,Transaction=nonce+30,Slot=(byte)index,Number=revision,Data=next.Encode()};reply=AssetWire.Decode(await exchange.Exchange(AssetWire.Encode(q),1500,CancellationToken.None).ConfigureAwait(false));if(!AssetWire.RepliesTo(q,reply)||reply.Data.Length!=44||BitConverter.ToUInt32(reply.Data,0)!=0)throw new IOException("No se ha confirmado el retorno al Boost de fábrica.");var data=new byte[32];Buffer.BlockCopy(reply.Data,12,data,0,32);settings=PreampSettings.Decode(data);if(!settings.Encode().SequenceEqual(next.Encode()))throw new InvalidDataException("El estado confirmado no coincide.");revision=BitConverter.ToUInt32(reply.Data,8);}
+   var client=new AssetTransfer(exchange,2424833);await client.Connect(nonce,CancellationToken.None).ConfigureAwait(false);for(byte i=0;i<2;i++)names[i]=await client.ReadSlot((byte)(3+i),nonce+100u+i,CancellationToken.None).ConfigureAwait(false);
+  }catch(Exception e){error=e;}
+  if(exchange!=null)exchange.Dispose();if(channel!=null)try{await channel.CloseAsync().ConfigureAwait(false);closed=channel.Closed;}catch(Exception e){error=error==null?e:new AggregateException(error,e);}else closed=true;
+  bool passed=error==null&&closed;File.WriteAllText(output,new JavaScriptSerializer().Serialize(new{passed,index,revision,before,preamp=settings,NAM=names,shutdown_confirmed=closed,parameters_edited=restoreFactory,presets_saved=false,assets_written=false,firmware_installed=false,error=error==null?null:error.ToString()}));if(!closed)new ManualResetEvent(false).WaitOne();return passed?0:1;
+ }
+}
+}

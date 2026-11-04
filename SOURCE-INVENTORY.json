@@ -1,0 +1,2301 @@
+{
+  "schema": 1,
+  "hardware_accessed": false,
+  "compilation_run": false,
+  "source_files": [
+    {
+      "path": "research/catalyst-editor/AssetDataConnectionUI.cs",
+      "bytes": 3560,
+      "sha256": "67dc68a41c0c1ea87cd93cf95d18990850622a6805246232d0b0b7de5343d46e",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetDataPanel.cs",
+      "bytes": 21013,
+      "sha256": "57d3165fbcf44a3e388445eca6f4b443d02cfed101bd47402f0f1f8ef68d8224",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetDataSession.cs",
+      "bytes": 5219,
+      "sha256": "9b478123ed9ba79d9d8852f775732210eff30917c97b717d13193a827a0a7f48",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetDataSessionChecks.cs",
+      "bytes": 8991,
+      "sha256": "5f9dc84df6ce1c1e26ec2dd78f26d9d5b6009331b98fb1167bd40aba7b1e4ba9",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetDeviceIdentity.cs",
+      "bytes": 1983,
+      "sha256": "664e095e4d14fce18ab88c4190ba210d56dde5dab10f481acbbdbe590856d41f",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetInfo.cs",
+      "bytes": 3028,
+      "sha256": "bb527607870d7b2fc529f1df5d39222eea0ef3413a48aa12d5853e721e71ef10",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetInitialInstall.cs",
+      "bytes": 6427,
+      "sha256": "34d6a56d0a720af1b326637d4f910242be6c1618454d9e61c88bb65187b1995a",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetJournal.cs",
+      "bytes": 7286,
+      "sha256": "e1dbcdeede78648d3b54ff704b449010d70af99ae6fe0f79b99872ee0de6aa36",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetJournalChecks.cs",
+      "bytes": 15876,
+      "sha256": "2b9b6b71d28468c483a80df8bf59f617a78e797fb3aae0e144ec3424b7715142",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetLibrary.cs",
+      "bytes": 5078,
+      "sha256": "d330420b1dd6e6b5fd43b9a1b70f6738766acac8024e6af6dba45f85f84cd933",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetMidiExchange.cs",
+      "bytes": 6764,
+      "sha256": "a09a95b91366d9de96cf82af56b849befcc45a9f993765c98bae7b4ac66d2551",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetPortBinding.cs",
+      "bytes": 10650,
+      "sha256": "caa4ebb6f11ac68909c4ebd662d2c95f891610412f7de5d4a6c692478d5e9354",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetPortBindingChecks.cs",
+      "bytes": 5251,
+      "sha256": "475b876e67a863a0a8e55b9c9443ccf79b9ba24d0d12abf396ec9c2362bb0099",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetPortNative.cs",
+      "bytes": 2724,
+      "sha256": "95d0724d7c48feea5c9506468bf7398decf5c4367f555ecda86aa27d21bddd3f",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetPortOwner.cs",
+      "bytes": 12777,
+      "sha256": "e561571f3dcffce4f9b8ba8b8b710937e886f2f5299085288c02f2bd62172ed7",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetPortOwnerChecks.cs",
+      "bytes": 12345,
+      "sha256": "a7af3cfac4e4f5c5af0d9a305a085311853f9bbff7b44281d5fd3ea1fd462a34",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetTransfer.cs",
+      "bytes": 16827,
+      "sha256": "cc98c0bf4eb7d409a52cf08cee0bb32407ed9d9a1b7e41c232ed67b2a5dbe9a9",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetWire.cs",
+      "bytes": 3963,
+      "sha256": "b2cfb41bdec16f3a7bb20fc55118bfaf6e86beca0ae54af2ad64a239fee7e9d4",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/AssetWorkspace.cs",
+      "bytes": 4196,
+      "sha256": "94d73f3d94722b44bd984352536b2e7186082f8c3d06ee7cb8f324e563dafb67",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/Backend.cs",
+      "bytes": 21938,
+      "sha256": "90af71bf7c4601f47023b989d0872344b5920cdb8ee63fc316073e0583487f61",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/BackendCFControls.cs",
+      "bytes": 9327,
+      "sha256": "d70f049261bd12d49a5440cc25470cfec7e4cbab2737e9ce6c96c6933c35199b",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/BlackTheme.cs",
+      "bytes": 3189,
+      "sha256": "f6748d7969aee683b1fb15be5b0391a8737edb09f847b48d6d4295a91f892615",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/CFContainerCodec.cs",
+      "bytes": 5380,
+      "sha256": "9d5fe3fad1b533e4ca41dc64029b4498c9b47c604c4b2828f034fb124a5f3f7b",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/CFInstallChecks.cs",
+      "bytes": 8933,
+      "sha256": "b7b8cb049be725f219b22d697fea42b5489f34ac36d193e273aea722d77948f6",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/CFInstallCoordinator.cs",
+      "bytes": 11890,
+      "sha256": "6cb35b47694a778754478c0e4a75b8805698c028faccd978079d24cca9cd669e",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/CFInstallServices.cs",
+      "bytes": 4628,
+      "sha256": "f29dfb33f802eb06c083e39382e1413127eb4d32dd83d56b19ceb445d86fbbaf",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/CFPackageBuilder.cs",
+      "bytes": 13349,
+      "sha256": "92f5daa50be7d426be650ab1d55fcb68a5f312a5027bfec14cfd2497dc66047c",
+      "category": "exact r103 package builder"
+    },
+    {
+      "path": "research/catalyst-editor/CFPackageChecks.cs",
+      "bytes": 3257,
+      "sha256": "29d8006d363fb843ba11316730144cc3d5347bc370afd926b19ba97cf7f68ab0",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/CFPreparedPackage.cs",
+      "bytes": 1364,
+      "sha256": "f7abec7177631d8cccb4c2a07de73f0046550770f0f05cc31ef32eb0deab1fc9",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/Catalog.cs",
+      "bytes": 4990,
+      "sha256": "a258bf89f2f39a3dd121d3c6d06fb91ad49eb075f63b9cc0b2a20f79191578fe",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/ClippedText.cs",
+      "bytes": 609,
+      "sha256": "1ff91da5996c42d561b4f7ea66764cea8c24fedaaa212d4d8d82f391e45c11ab",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/ConnectionChecks.cs",
+      "bytes": 4710,
+      "sha256": "599b10acf188152c7027e46960514463e90eeb7a5e61d821e878e1617623e929",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/ConnectionFlow.cs",
+      "bytes": 2055,
+      "sha256": "a5e332934b02fcd0ae7d3627120277cdb24a346ffd2ec93654be775a2d8e0a9e",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/DarkLogBox.cs",
+      "bytes": 5338,
+      "sha256": "5f029f14800b110528e795c67a3ffb9215542ae0f452a5b99f40b2091d150be0",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/DataReloadTrial.cs",
+      "bytes": 5262,
+      "sha256": "a3dc28bd7eb3974b59a7d5b5d801d19a2ab68944bda875d1514f059e10108cd0",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/DataSendTrial.cs",
+      "bytes": 6577,
+      "sha256": "860403a99ddea46d6c71f0e1a266ea806e084f64f5aa8a55b86db6ee78f9736a",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/DataWorkspaceChecks.cs",
+      "bytes": 16939,
+      "sha256": "16663b2426ee3da266d161c2ec2bb59b6fb8cdc5f3cbbdbf401dbfc2cf33171d",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/DemoAssets.cs",
+      "bytes": 3658,
+      "sha256": "f21522a88cad215c54093e6830ac3da800162a4d2d8d0f790989a0df5659dd73",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/DeviceFamily.cs",
+      "bytes": 773,
+      "sha256": "bb30d99e5ccbe46ffeb7730b2e839c1fe78b51bcd6789dc4524eaaf13da74817",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/EditorForm.cs",
+      "bytes": 28967,
+      "sha256": "75ab1eef6c9b93aae7fb60404bbecc0c281e2b098dd37c4ec084ee617ae07e9c",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/EditorPages.cs",
+      "bytes": 13107,
+      "sha256": "66fd0599807c9231ea299c1e2aae39bd2e1928c78d06cb28a8f33c78c8972a29",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/EditorTests.cs",
+      "bytes": 3652,
+      "sha256": "af99f54ffac9fbca322da8fd5340260ab0405f80ace33c7e13f21bc7b3a57afa",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/EditorZoom.cs",
+      "bytes": 4973,
+      "sha256": "caa8371bd5542ce42777f871e579eaadb5e76292fe1fbfebf68e8bc01204a04b",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/EffectSelector.cs",
+      "bytes": 2665,
+      "sha256": "055fdcf4fdd9e021596166c5ecddff20b0a086552f4bdc666d2a2af41cf31f44",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/FirmwareAccess.cs",
+      "bytes": 3460,
+      "sha256": "74ac7cc3a8cb2548c81ff7d9bb56842966a0daf7d17d2212d5b7cc0ecea9ec81",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/FirmwareAccessChecks.cs",
+      "bytes": 4871,
+      "sha256": "6b87ead8c676fe5988696c58e573f611f3b99ead4ed1cc516dd9e74f985a52a7",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/FirmwareDrop.cs",
+      "bytes": 4298,
+      "sha256": "bb1381302def740b3b7cf080b8086ac799e55559cf719e9c9a22f2f98b0b71af",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/FirmwareIdentifier.cs",
+      "bytes": 1008,
+      "sha256": "e791912ca5d39cd739a5e140dc28db9b45b0a31709f1692f1f84b551557b135b",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/FirmwareModes.cs",
+      "bytes": 2888,
+      "sha256": "099e2cc30abc1609ecce1918c815a14bcd9c28be72f62b3b5536eee351b38543",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/FirmwareTab.cs",
+      "bytes": 13628,
+      "sha256": "3bebca58dd9833437a4e91e64bdca0afe401dfb6c1e6317d220bdef68199f14a",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/FirmwareText.cs",
+      "bytes": 642,
+      "sha256": "009a14d2773223503fdd2ab8e837412b14293081a5bd77989be7411d6562b63a",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/FirmwareUIChecks.cs",
+      "bytes": 9272,
+      "sha256": "f9aec9dabb0fb746585cde274cbcb7e00b1dbbbadc8417dcb8e6096894db7e96",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/IRImport.cs",
+      "bytes": 12041,
+      "sha256": "20b5d5170d349cd4f0961934764ddba8107650ad56641cea9849729fcab11210",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/IRMediaFoundation.cs",
+      "bytes": 6189,
+      "sha256": "7cd7d90829fb969f99441151fa3422c169491b43d98ba30cdf70da3c4a3cda37",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/InitialCFResources.cs",
+      "bytes": 1693,
+      "sha256": "9b927201cc1341cd6b43252206bca740e26c75ff8e1e40a1c598d0335a1c1292",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/InitialInstallReview.cs",
+      "bytes": 2642,
+      "sha256": "2985613ddbe0b922784b77146745109c56397ec07124ff8a8d815eee526a434e",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/InteractionChecks.cs",
+      "bytes": 4925,
+      "sha256": "778169aa9f957cc49102ec74638c2af630049046490776ea59cef8b2b37290e9",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/Language.cs",
+      "bytes": 6845,
+      "sha256": "fdf9afb00a5b135d937f36e27a629617a19eefbca7293c99e05f0800717d7457",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/LegacyCFMigration.cs",
+      "bytes": 5263,
+      "sha256": "4a71e1240b995f8eba5be4970dac618bab8445e62194b0daf3e8bf5b4b1326cc",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/LibraryPage.cs",
+      "bytes": 6567,
+      "sha256": "081030666a467b9162ddfd0ed92cc92684ed0c92fd93649c75e7d62bf0fa4a86",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/MidiExchangeChecks.cs",
+      "bytes": 15985,
+      "sha256": "c59e6f77d052598aef5e1fb2deb9fc0a7c59e1b6d307c54366b47ca35a2f7f11",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/NamCaption.cs",
+      "bytes": 4534,
+      "sha256": "e5bd3b4bedccb4b08e797c2015130e462cfdc7cb6140aa4c1dcf91425a963c60",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/NativeConnectionCheck.cs",
+      "bytes": 2575,
+      "sha256": "5b2f7c957560d3d6ae2f42ceb2e91d10fe08ae6a3573a38fde58f5df8c26b752",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/NativeExercise.cs",
+      "bytes": 4302,
+      "sha256": "7271779bdf72a730e284d5deb32eec1bfccff5b4e0038a962bb4595003080a5b",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/NativePreampChecks.cs",
+      "bytes": 12574,
+      "sha256": "a2226dcbf102bca68fc14d58a30c893c24cd9b8f438bbc73b355c34e9c0cd455",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/NativeShutdownChecks.cs",
+      "bytes": 4494,
+      "sha256": "c1111a83922459ad336e7d24f566fa850e02684f955b20b0beaa2af0a78dc7a7",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/OpeningChecks.cs",
+      "bytes": 2174,
+      "sha256": "70d528c74fa828d3b9ace174711895cc5cf20ac717c1f332b231d78cb2b4230b",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/PaintContractTests.cs",
+      "bytes": 2380,
+      "sha256": "879e28f6d90f31db1626b13456a4d232b210718624e37aacce95042441716745",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/PhysicalTrial.cs",
+      "bytes": 4498,
+      "sha256": "205efcb7d9a5c1c2b729bca5d62f866301090c263169b50789eccf930cf741aa",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/PreampClient.cs",
+      "bytes": 10657,
+      "sha256": "2d6706db2b2791f3f289333c3faa2f9d1e98c62828455caba213144bbdd450fa",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/PreampJournal.cs",
+      "bytes": 4052,
+      "sha256": "e680ba79ad56b5f8f96e29988b1ff36ddb2c2730895fceac671606ecb26d60a7",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/PreampLayoutChecks.cs",
+      "bytes": 4072,
+      "sha256": "2d4389ed5ec13ad07d390022961df7e646f1529b7de62ee9e353ffeb5f348ea2",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/PreampPanel.cs",
+      "bytes": 4954,
+      "sha256": "620314d28b05426e528c4fce696e147c7c8586a0ae86ed424b22695fb58f82cf",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/PresetStore.cs",
+      "bytes": 3410,
+      "sha256": "ddd50738cdddae1f99acb0df8e821f85d97579eb8ba784767e107274f84370aa",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/Program.cs",
+      "bytes": 8371,
+      "sha256": "78990b227ac5d92636e302663e8fca90d8043bfa16d294bd675bb24c08b58e53",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/ReceiverDiagnostic.cs",
+      "bytes": 2917,
+      "sha256": "b6cd5f6fd56f287e5572e115dda2cc064167d70cf36a500b380504e47a6fdcbc",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/SdkMidiBorrow.cs",
+      "bytes": 6861,
+      "sha256": "bc17d0d65cc88be8f917044f93ef1214175e440afe4337c85049411bb16c1a99",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/SdkMidiBorrowChecks.cs",
+      "bytes": 5992,
+      "sha256": "bd47120fcfbefd64d0d91b55e484994441d6c2139a83e73380993ebe47b6d53c",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/SdkMidiTap.cs",
+      "bytes": 9409,
+      "sha256": "f0a4e29473242f55909bee2390232226d88069ba64de0bc5f97ea3cdc1b0a0e9",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/StableButton.cs",
+      "bytes": 2916,
+      "sha256": "646fb13215b756594592fd428640c5d0772fd4043871220c11e419996bc649b9",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/Startup.cs",
+      "bytes": 7684,
+      "sha256": "94f30d3a50ab264d2a4c3305503256218e3e35f008417683134264071b22c2ea",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/StateSnapshotTrial.cs",
+      "bytes": 3945,
+      "sha256": "4e69c4a084dba3405ae31d96c8a9907c7e206da81aabfc79eb97ed2f5f0fdea4",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/StatusTimingTrial.cs",
+      "bytes": 2548,
+      "sha256": "637115dc996d43fa10cda1925de5d8d675f9c62aad75ead6443bd0ec3bb10e0b",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/SystemUIChecks.cs",
+      "bytes": 5756,
+      "sha256": "68fa72061746d51d7a657970c24c219137c1562916633243bfa80f5ebbf56193",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/TunerDisplay.cs",
+      "bytes": 3779,
+      "sha256": "03771dabb5a0b9e5b1d0584b3854d1dec48495c1eda9c2269db8b445eef79fc9",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/TypographyAudit.cs",
+      "bytes": 1442,
+      "sha256": "c5a604a581ebd5880ee0bfd8dc932c35b34cada8b29ed3f11c01760d81d56d93",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/UIContractTests.cs",
+      "bytes": 9984,
+      "sha256": "0e0bf1c5d4a65721a16d94dace06e616bd989fafdf3fcf2a7da50a0158c36d52",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/Widgets.cs",
+      "bytes": 7921,
+      "sha256": "b509b4ce3651460bcbb2497b2ba398ab6d100c84ebc2f102acaf0efb0ed7e5cc",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/WindowSizing.cs",
+      "bytes": 4083,
+      "sha256": "86acb0ecc0fa11d09611cf7133ab1a921a713136f855fe909dc332cbe8d8d173",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/WindowSizingTests.cs",
+      "bytes": 4735,
+      "sha256": "134a0306e9a03a2913a6d3a02469504a9d6003d1b66f75016a9764d55fb58dd1",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/WorkflowChecks.cs",
+      "bytes": 13376,
+      "sha256": "a39b506a822f17aedd08963da05ba6fd7188459c08549e619f85db223ffd87f1",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/build.py",
+      "bytes": 15307,
+      "sha256": "2914c2fd6f3bcc6259ebfa05ba0b8f3a50af53f73ca14370f43b8515510d4d36",
+      "category": "desktop build and validation"
+    },
+    {
+      "path": "research/catalyst-editor/build_cf_transport.py",
+      "bytes": 4692,
+      "sha256": "c62a36e42916294f7f5683b5240169e7a09624d99effe0a57f94bf75126d446e",
+      "category": "desktop build and validation"
+    },
+    {
+      "path": "research/catalyst-editor/build_family.py",
+      "bytes": 11002,
+      "sha256": "b98113d45537fedd71ccf68a045a6fca95f27e5777c1a2d61c67e24df9e3dce1",
+      "category": "desktop build and validation"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/AppVersion.cs",
+      "bytes": 405,
+      "sha256": "253514e234ccd449ab7af37f2f0a2123f08e81f0d5f2a1b2e8efea6b0b48c935",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/CFCandidateGate.cs",
+      "bytes": 1585,
+      "sha256": "da882ff6e32220b8bf7da95bf9745a1479e76f43866ab9c8e2f2efe99b39ccc7",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/CentralAdapter.cs",
+      "bytes": 10225,
+      "sha256": "574be0a07a4fe5d3766987380d5fbba04aaef7aba4463a84636ffb7df6df4690",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/EngineProbe.cs",
+      "bytes": 21663,
+      "sha256": "ce5bece91bd5cea8e9a4028ef04b3b0d097857164e77053e27b22ebe8eb98fa4",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/FFTBank.cs",
+      "bytes": 2159,
+      "sha256": "de292ae828cd2f406df37b3388ce63a349edc9256053e1d128246445a681d20a",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/FirmwareCodec.cs",
+      "bytes": 15737,
+      "sha256": "d9203b4cd5b38a7aba5eab9f0d84cf284c35ad3d2b1d652d4240392329a708b6",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/FirmwarePatch.cs",
+      "bytes": 5239,
+      "sha256": "38d2686f5477afe7934e8e121ea923f7e8c50cb1e3033e5168fca88c5069b170",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/GlassUI.cs",
+      "bytes": 6674,
+      "sha256": "2839fad70d749e24fe1502182c576982293a690e10601e141ee5656261e1a390",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/IRFilters.cs",
+      "bytes": 1761,
+      "sha256": "55cf55d2f423934f1716c32bcfe28f3ca110c03b8a1a924036520690b9d828c5",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/IRLevels.cs",
+      "bytes": 4388,
+      "sha256": "59470f9d1508a70224f4897eb6f1cf47c51104dfc35b4baa864b545d96ba24bb",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/InProcessSDK.cs",
+      "bytes": 10514,
+      "sha256": "bc8d81709a9dc7c91ff6849c41e815a66e4049f7cb3675f3ee45492ef1e7b643",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/MultiIRCodec.cs",
+      "bytes": 6584,
+      "sha256": "d1d3b22e09403b0b53b6584252ffac5d1be2f9d65b7a2bb1ef671c32182153be",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/MultiIRSlots.cs",
+      "bytes": 5815,
+      "sha256": "9f625666d03202cd79ff14a7d53407725e31cac05af16d30071a1336191170b9",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/NamFirmwareCodec.cs",
+      "bytes": 6509,
+      "sha256": "fc6c93db0e6555e56cf3d30b34df93d24d98c9252bdf520579655657c86eb908",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/NamLayout.cs",
+      "bytes": 253,
+      "sha256": "9e5b526c7e2638a838d500d3af22e38bda78f5e0b3af92bb464b0aa099bfb3d9",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/NamModel.cs",
+      "bytes": 14738,
+      "sha256": "b610f2ff650a69f7a126017f3240bb6f0d9bc98eeab90230b1ef7797dec1a569",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/NamTab.cs",
+      "bytes": 19580,
+      "sha256": "ea81420483abc95300ba150c9654699f59cf4c1baaadcec004371ca89932bafc",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/OneClickApp.cs",
+      "bytes": 47088,
+      "sha256": "6f91d029fa98ef9c16c20c3807ffc804fdd793a79057650312425488730ea16d",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/OneClickBundle.cs",
+      "bytes": 4573,
+      "sha256": "176a928a0d31f8440f84d3cd9249587c2827106b07043978e461a43fc4779941",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/OneClickWorkflow.cs",
+      "bytes": 3087,
+      "sha256": "4b0262d2e252772a16120d8f0d73765d28c339f5dac78f16d5e5f64cda2aaa30",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/ProjectLinks.cs",
+      "bytes": 672,
+      "sha256": "01d28c16f89c2e093010bfab4e039d057551f79335ea2c8f2f057e468f638d88",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/cf-transport-build/source/TemplateSource.cs",
+      "bytes": 2762,
+      "sha256": "88f935047c8b2147293861700016cb3392ed0c3a6fd5548aa398398943ced7ef",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/checks/ir-import/IRImportProbe.cs",
+      "bytes": 1256,
+      "sha256": "a310f00528046f09589f0e94d8cf113442f52ca61579b48fd01d266c2eb73d46",
+      "category": "synthetic offline decoder probe source"
+    },
+    {
+      "path": "research/catalyst-editor/copy-review.json",
+      "bytes": 1766,
+      "sha256": "762654f92bb9d2b2b602083d7c78a603b7f7126f270b545a19d3c9407a196940",
+      "category": "desktop build and validation"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/AppVersion.cs",
+      "bytes": 405,
+      "sha256": "253514e234ccd449ab7af37f2f0a2123f08e81f0d5f2a1b2e8efea6b0b48c935",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/CentralAdapter.cs",
+      "bytes": 10225,
+      "sha256": "574be0a07a4fe5d3766987380d5fbba04aaef7aba4463a84636ffb7df6df4690",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/EngineProbe.cs",
+      "bytes": 21663,
+      "sha256": "ce5bece91bd5cea8e9a4028ef04b3b0d097857164e77053e27b22ebe8eb98fa4",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/FFTBank.cs",
+      "bytes": 2159,
+      "sha256": "de292ae828cd2f406df37b3388ce63a349edc9256053e1d128246445a681d20a",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/FirmwareCodec.cs",
+      "bytes": 15684,
+      "sha256": "5dbb9dc978d9a174644b4685310a4dbdc67325dab1a017308f1714d5e71cb945",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/FirmwarePatch.cs",
+      "bytes": 5239,
+      "sha256": "38d2686f5477afe7934e8e121ea923f7e8c50cb1e3033e5168fca88c5069b170",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/GlassUI.cs",
+      "bytes": 6674,
+      "sha256": "2839fad70d749e24fe1502182c576982293a690e10601e141ee5656261e1a390",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/IRFilters.cs",
+      "bytes": 1761,
+      "sha256": "55cf55d2f423934f1716c32bcfe28f3ca110c03b8a1a924036520690b9d828c5",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/IRLevels.cs",
+      "bytes": 4388,
+      "sha256": "59470f9d1508a70224f4897eb6f1cf47c51104dfc35b4baa864b545d96ba24bb",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/InProcessSDK.cs",
+      "bytes": 10514,
+      "sha256": "bc8d81709a9dc7c91ff6849c41e815a66e4049f7cb3675f3ee45492ef1e7b643",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/MultiIRCodec.cs",
+      "bytes": 6584,
+      "sha256": "d1d3b22e09403b0b53b6584252ffac5d1be2f9d65b7a2bb1ef671c32182153be",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/MultiIRSlots.cs",
+      "bytes": 5815,
+      "sha256": "9f625666d03202cd79ff14a7d53407725e31cac05af16d30071a1336191170b9",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/NamFirmwareCodec.cs",
+      "bytes": 6509,
+      "sha256": "fc6c93db0e6555e56cf3d30b34df93d24d98c9252bdf520579655657c86eb908",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/NamLayout.cs",
+      "bytes": 253,
+      "sha256": "9e5b526c7e2638a838d500d3af22e38bda78f5e0b3af92bb464b0aa099bfb3d9",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/NamModel.cs",
+      "bytes": 14738,
+      "sha256": "b610f2ff650a69f7a126017f3240bb6f0d9bc98eeab90230b1ef7797dec1a569",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/NamTab.cs",
+      "bytes": 19580,
+      "sha256": "ea81420483abc95300ba150c9654699f59cf4c1baaadcec004371ca89932bafc",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/OneClickApp.cs",
+      "bytes": 47088,
+      "sha256": "6f91d029fa98ef9c16c20c3807ffc804fdd793a79057650312425488730ea16d",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/OneClickBundle.cs",
+      "bytes": 4573,
+      "sha256": "176a928a0d31f8440f84d3cd9249587c2827106b07043978e461a43fc4779941",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/OneClickWorkflow.cs",
+      "bytes": 3087,
+      "sha256": "4b0262d2e252772a16120d8f0d73765d28c339f5dac78f16d5e5f64cda2aaa30",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/ProjectLinks.cs",
+      "bytes": 672,
+      "sha256": "01d28c16f89c2e093010bfab4e039d057551f79335ea2c8f2f057e468f638d88",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family-source/TemplateSource.cs",
+      "bytes": 2762,
+      "sha256": "88f935047c8b2147293861700016cb3392ed0c3a6fd5548aa398398943ced7ef",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family/EmbeddedPreview.cs",
+      "bytes": 587,
+      "sha256": "9ac787381e98a5ff7ae4804bdbd8e6e774f2b4bf2f44384f492dcc584e69a931",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family/FamilyProbe.cs",
+      "bytes": 7699,
+      "sha256": "a1c9cdad0e32c92c5c8c71a4326a39546f884f2169274588e68deef4a49ebe1d",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family/FamilyProfile.cs",
+      "bytes": 2131,
+      "sha256": "06dd17429c2d3d00d352b8c6dd0b0127314eeab5a08a347d695e05ae5730c5ad",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/family/IRImportIntegration.cs",
+      "bytes": 513,
+      "sha256": "3b28aae4de4c379721da6b9a77bc238a2f7f5079f5f3a6569efa70eb2a7d1120",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/initial_build_proof.py",
+      "bytes": 2822,
+      "sha256": "8b83091138459bbea8b3a3fbb28e41b806861d6c00f3351ad789a68a6e46eaad",
+      "category": "desktop build and validation"
+    },
+    {
+      "path": "research/catalyst-editor/initial_release_proof.py",
+      "bytes": 4168,
+      "sha256": "3a0e6d4251f0a2b958a7553882bc6292ddaa24072b4f709617601f18b5c05de1",
+      "category": "desktop build and validation"
+    },
+    {
+      "path": "research/catalyst-editor/legacy-pinned-sources/IRImport.cs",
+      "bytes": 11667,
+      "sha256": "4b3707583bfb90005a243485aa4e9717a04d4a10deff89653cb0c1a9f62b65f9",
+      "category": "legacy embedded component corresponding source"
+    },
+    {
+      "path": "research/catalyst-editor/legacy_sources.py",
+      "bytes": 812,
+      "sha256": "0f9820387ad247145222e8e83dce8288fd0842dbd5d8827af1c8a0fba32c22de",
+      "category": "desktop build and validation"
+    },
+    {
+      "path": "research/catalyst-editor/resources/AudioCodec.cs",
+      "bytes": 1065,
+      "sha256": "c1756b18309224d888f0bb5e52071b2f9589893d0e4f6faf4064f0dcc4755021",
+      "category": "source resource"
+    },
+    {
+      "path": "research/catalyst-editor/resources/EmbeddedFirmwareInfo.cs",
+      "bytes": 301,
+      "sha256": "1d9953d495505a73750d153617f9b37cbbab548561fb1a61126e3069cb45dfdf",
+      "category": "source resource"
+    },
+    {
+      "path": "research/catalyst-editor/resources/GlassUI.cs",
+      "bytes": 5931,
+      "sha256": "242e80284d1ba6167aa8958bb99ac3a13f59459586bfe8031ceb05eccf84fdf1",
+      "category": "source resource"
+    },
+    {
+      "path": "research/catalyst-editor/resources/InitialCFInfo.cs",
+      "bytes": 221,
+      "sha256": "f4151cc23eed618929b05a0bb39ce4f4c845611d3a05199cde8615da05bd8ddc",
+      "category": "source resource"
+    },
+    {
+      "path": "research/catalyst-editor/resources/catalog.json",
+      "bytes": 78621,
+      "sha256": "b89b9dff962eb1f0f3230cca2db49982204d1928be425ac84b134c9e69e49583",
+      "category": "source resource"
+    },
+    {
+      "path": "research/catalyst-editor/resources/catalyst-cf-editor-v2.ico",
+      "bytes": 145777,
+      "sha256": "cabf97adf83155a1ac0780ffccf3776a3c2beecb4c90287b64f5ef2417f85050",
+      "category": "source resource"
+    },
+    {
+      "path": "research/catalyst-editor/resources/icon-v2/128.png",
+      "bytes": 27362,
+      "sha256": "a3a7cb0b659f7b2ffa6572b7547507ecf2e8acc57935f771d7e3e755db22b08c",
+      "category": "source icon artwork"
+    },
+    {
+      "path": "research/catalyst-editor/resources/icon-v2/16.png",
+      "bytes": 895,
+      "sha256": "7387b8664ff6ca895eff9004cc19292ffe872e75a26a25220dd5d276ec03cc31",
+      "category": "source icon artwork"
+    },
+    {
+      "path": "research/catalyst-editor/resources/icon-v2/24.png",
+      "bytes": 1488,
+      "sha256": "6ca36d0e4772787d9996076342135d66e6dd17754bd0f26c8dfa7f4b12af9c97",
+      "category": "source icon artwork"
+    },
+    {
+      "path": "research/catalyst-editor/resources/icon-v2/256.png",
+      "bytes": 100701,
+      "sha256": "c5b52c998745cac4c25cf54fe7e9ebb888b00f258f6bc951c5da5fe45b51575a",
+      "category": "source icon artwork"
+    },
+    {
+      "path": "research/catalyst-editor/resources/icon-v2/32.png",
+      "bytes": 2225,
+      "sha256": "48671bdbf468563a0b8dc6324cfae4d3d966f896db1d9b28ccf5ffa64169adcd",
+      "category": "source icon artwork"
+    },
+    {
+      "path": "research/catalyst-editor/resources/icon-v2/48.png",
+      "bytes": 4965,
+      "sha256": "d5e42e1395138850bdb33b6982148bb59499537647a7fccacb78a6d164dacac6",
+      "category": "source icon artwork"
+    },
+    {
+      "path": "research/catalyst-editor/resources/icon-v2/64.png",
+      "bytes": 8023,
+      "sha256": "799dc951736186a7e9eea35d247d7eee4d661e48fca810337c30767f772adb1d",
+      "category": "source icon artwork"
+    },
+    {
+      "path": "research/catalyst-editor/resources/tolex-black.png",
+      "bytes": 3168385,
+      "sha256": "c5f72de7883503dcdb5cff387a24cce4f69785dbc8d24b3509b63914389b614a",
+      "category": "source resource"
+    },
+    {
+      "path": "research/catalyst-editor/resources/ui-en.tsv",
+      "bytes": 10762,
+      "sha256": "78e09232c89857c6e8f0f6bdc8e293ec0584aed4ab8be0c649b3337904463c73",
+      "category": "source resource"
+    },
+    {
+      "path": "research/catalyst-editor/verify_ir_import.py",
+      "bytes": 10947,
+      "sha256": "4c94b72b9bceebcc7b5749e728625db3e955163d20fc25e97036be7135084c29",
+      "category": "desktop build and validation",
+      "snapshot_adjustment": "Test-fixture paths only: environment variables or synthetic fixture locations; runtime algorithm unchanged."
+    },
+    {
+      "path": "research/catalyst-ir/AppVersion.cs",
+      "bytes": 393,
+      "sha256": "3c999e1f3f49649cf70fb61ab4ebc41bb3c556f94abb27e8ef6d81b2ce937eb4",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/CentralAdapter.cs",
+      "bytes": 10442,
+      "sha256": "989adca78e4f855980475649ede3b2edde5729984a1c3419b0bd5c93f618d789",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/EngineProbe.cs",
+      "bytes": 20793,
+      "sha256": "df29cb02fcaf51cd8ac0fbb3c2192e09499b6ac5e6903a5f157a34e563058c7f",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/FFTBank.cs",
+      "bytes": 2159,
+      "sha256": "de292ae828cd2f406df37b3388ce63a349edc9256053e1d128246445a681d20a",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/FirmwareCodec.cs",
+      "bytes": 17060,
+      "sha256": "34d1cc9d39250be7062d4e7101b851604d9bf8454b60eac43a3c85d48d6c1244",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/FirmwarePatch.cs",
+      "bytes": 5239,
+      "sha256": "38d2686f5477afe7934e8e121ea923f7e8c50cb1e3033e5168fca88c5069b170",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/GlassUI.cs",
+      "bytes": 6594,
+      "sha256": "ed19a806c8e34b54c5b8bd4b726e8d851b8e9bc7dc1a37d02c721364c146814a",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/IRFilters.cs",
+      "bytes": 1761,
+      "sha256": "55cf55d2f423934f1716c32bcfe28f3ca110c03b8a1a924036520690b9d828c5",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/IRLevels.cs",
+      "bytes": 4388,
+      "sha256": "59470f9d1508a70224f4897eb6f1cf47c51104dfc35b4baa864b545d96ba24bb",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/InProcessSDK.cs",
+      "bytes": 10514,
+      "sha256": "bc8d81709a9dc7c91ff6849c41e815a66e4049f7cb3675f3ee45492ef1e7b643",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/LICENSE-share",
+      "bytes": 1245,
+      "sha256": "cd61708fd59600562aee99e0f2fdb32cd59ecdbb04ed93f60b4515fc80db6ea2",
+      "category": "original CatalystIR source licence"
+    },
+    {
+      "path": "research/catalyst-ir/MultiIRCodec.cs",
+      "bytes": 6392,
+      "sha256": "3b7ea663da5d98df8543b68997c788caa37d5fc9c2affa4c3dde9806d09abf6d",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/MultiIRSlots.cs",
+      "bytes": 4987,
+      "sha256": "0332aab810f8c9b0049e51632a136bd152c76a304b111fd75dda8578b3f2f158",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/OneClickApp.cs",
+      "bytes": 46070,
+      "sha256": "a4d68bebfa5acbe4f8aa9bb12904619bb4c8b80310f15fe75131535bf6468b48",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/OneClickBundle.cs",
+      "bytes": 4573,
+      "sha256": "176a928a0d31f8440f84d3cd9249587c2827106b07043978e461a43fc4779941",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/OneClickWorkflow.cs",
+      "bytes": 3065,
+      "sha256": "f4311d38547b2949495bc9d81ffd50ac37a8d4c919302608372d555bf27f0ea9",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/ProjectLinks.cs",
+      "bytes": 672,
+      "sha256": "01d28c16f89c2e093010bfab4e039d057551f79335ea2c8f2f057e468f638d88",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/TemplateSource.cs",
+      "bytes": 2762,
+      "sha256": "88f935047c8b2147293861700016cb3392ed0c3a6fd5548aa398398943ced7ef",
+      "category": "original CatalystIR host source"
+    },
+    {
+      "path": "research/catalyst-ir/arm_tools.py",
+      "bytes": 1413,
+      "sha256": "b865685582b818798de8c79e241a95eb9f9e59518639a0b329fa847eed356e02",
+      "category": "firmware container and offline tooling"
+    },
+    {
+      "path": "research/catalyst-ir/ctf_tool.py",
+      "bytes": 3656,
+      "sha256": "ae377576f7205d03e60da269fd02e2dcdd073f76f7a61e742bbac2f218f1647c",
+      "category": "firmware container and offline tooling"
+    },
+    {
+      "path": "research/catalyst-ir/decode_firmware.py",
+      "bytes": 2367,
+      "sha256": "ad810e5817ba4a3c487962f82845efd445c6f5e76251fe73ca6fbf527520d053",
+      "category": "firmware container and offline tooling"
+    },
+    {
+      "path": "research/catalyst-ir/emulate_graph.py",
+      "bytes": 8892,
+      "sha256": "854957d8f46035fcff3a764002bd1a699fff70ee8cb8c751dee39ce124201b46",
+      "category": "firmware container and offline tooling"
+    },
+    {
+      "path": "research/catalyst-ir/package_extension.py",
+      "bytes": 4934,
+      "sha256": "d79231bae22e1a8c64deb03dae2b55263e393063ab29972f57ff041464f9ec76",
+      "category": "firmware container and offline tooling"
+    },
+    {
+      "path": "research/catalyst-ir/verify_root_routing.py",
+      "bytes": 2411,
+      "sha256": "090b80b954008e3186d5adc211b7b5c86d66b8aab633db6db9b26d159108bf39",
+      "category": "firmware container and offline tooling"
+    },
+    {
+      "path": "research/catalyst-ir/verify_tcm_ir.py",
+      "bytes": 5299,
+      "sha256": "f987a11db015cbfdb6b88cfe1bf9c4b4870b23d9f4d3d8fafcb5e39f7f37a3ef",
+      "category": "firmware container and offline tooling"
+    },
+    {
+      "path": "research/catalyst-ir/verify_tcm_routing.py",
+      "bytes": 1555,
+      "sha256": "c6275cc77f12e36f1c766cc1059aa89c337998487ec734ea5b7a98999a44b8db",
+      "category": "firmware container and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/LICENSE",
+      "bytes": 1063,
+      "sha256": "7c2fdf7fe0631e22d8d0b838c5e261fa9db2a269357a801640687e158551b96b",
+      "category": "NAM engine preferred source and generation"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/actor-build/actor.ld",
+      "bytes": 225,
+      "sha256": "47eb4c0c58b52ac4dbea7a2c8862f152d9fbc2bfe8320ca8f501d5c5bae6568e",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/actor-build/asset_actor_recovery.c",
+      "bytes": 12516,
+      "sha256": "6ef61a573d0834df640d2553e226e2ccd15c1ea43a7e1ec4ee88ac98c0504635",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/actor-build/coordinator_binding.c",
+      "bytes": 927,
+      "sha256": "13ccd4f2ca48fbfc45bef9555d44dd8d8f827ceb28ff0caebcc9b178e66813c7",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/actor-build/ir_handoff_leased.c",
+      "bytes": 4896,
+      "sha256": "6fcc0b834160f08ed964c82553ebb2ea0d85084e6cb1d76de78013d1239f1a02",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/actor-build/owner_addresses.h",
+      "bytes": 256,
+      "sha256": "155ff403978075325ca32d55be96a82ea04d96966ed4da8c4b8f1272e83ba6e1",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/actor-build/preamp_binding.c",
+      "bytes": 2584,
+      "sha256": "7c874b913148702099631b48b0637e34bad76a081af4bad668724dc96bcb07d3",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/build/OEM-controls.json",
+      "bytes": 6430,
+      "sha256": "75f46139e31b523ae371b77859ab72b42a2417209a8ab52a36921599d3b62260",
+      "category": "generated original-model control mapping"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/build/adapter.c",
+      "bytes": 22549,
+      "sha256": "c3cf1be25365cad2aee2fc1dee8ccdb6804278c82bf90cd365ebb26d33f52299",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/build/lab.ld",
+      "bytes": 206,
+      "sha256": "4075c5a0c7a19602dfe7fa257360f346f21d6b4fc5fc53db8d6d1138ccfbaefc",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/build/trial_tables.h",
+      "bytes": 13410,
+      "sha256": "6dd01a79955e0501433c17b7bf5df637f97e25a7ebb9519c3b2cc8c25bd8e5e1",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/build/trial_target.h",
+      "bytes": 1172,
+      "sha256": "a8e4dff0bf62d288ea361f4dce0223732778a9e5d2fd438eedba4063482a57ad",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/build_actor_variant.py",
+      "bytes": 1546,
+      "sha256": "9d1ec63aa0278b6d226f36f3a64a6dfc001cdf8cb46e8f7a2a2cb227d52c9349",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/build_all_amps.py",
+      "bytes": 9157,
+      "sha256": "1a5e0875f495fc163b4aca0d2afc877aa9f5da9ba0f8bbee63e240dd1b333606",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/build_trial_app.py",
+      "bytes": 2351,
+      "sha256": "83b7a2586428312759ee868b87c7dff0c2988120008920519992d56cdd139db9",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/verify_all_amps.py",
+      "bytes": 8802,
+      "sha256": "93a938ca734dea91a1a973537bfb43ede506482fbb63946af87824cc1da76041",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/verify_boot_variant.py",
+      "bytes": 1390,
+      "sha256": "cc5d675b2350aaab3d0e33df28e5a55835407fd919bfff2d35896a8791722b25",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/verify_owner_variant.py",
+      "bytes": 1332,
+      "sha256": "e87ff2012da239c8d9cebf7e1cb5a4420499eeb74fabd2cc0021da5b545f9039",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/verify_variant.py",
+      "bytes": 2651,
+      "sha256": "3da28b62d9fb56386cbc331be6bc08ec8edd77a6c3c2867f9069e3de85683d33",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/app/ImporterChecks.cs",
+      "bytes": 486,
+      "sha256": "f60edde502883ef81128e9bac36595a8c55803f5e3ea032afd025b138e622911",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/NamFirmwareCodec.cs",
+      "bytes": 6509,
+      "sha256": "fc6c93db0e6555e56cf3d30b34df93d24d98c9252bdf520579655657c86eb908",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/NamModel.cs",
+      "bytes": 14738,
+      "sha256": "b610f2ff650a69f7a126017f3240bb6f0d9bc98eeab90230b1ef7797dec1a569",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/NamTab.cs",
+      "bytes": 19420,
+      "sha256": "72f7fc262826fcfde6d59ed51f40f710c0652c36230df3fd965b39d6077e3b77",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/build_app.py",
+      "bytes": 7758,
+      "sha256": "e46cb092734794a1d818fe615045b47036fd826829542fd60771182cb516b172",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/prepare_resources.py",
+      "bytes": 5627,
+      "sha256": "f9503685b54545396fa2dfd7a4d59b06f5d331524e875505b9884ae9cb0900cf",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/resources/NamLayout.cs",
+      "bytes": 253,
+      "sha256": "9e5b526c7e2638a838d500d3af22e38bda78f5e0b3af92bb464b0aa099bfb3d9",
+      "category": "generated source resource"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/AppVersion.cs",
+      "bytes": 405,
+      "sha256": "253514e234ccd449ab7af37f2f0a2123f08e81f0d5f2a1b2e8efea6b0b48c935",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/CentralAdapter.cs",
+      "bytes": 10442,
+      "sha256": "989adca78e4f855980475649ede3b2edde5729984a1c3419b0bd5c93f618d789",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/EngineProbe.cs",
+      "bytes": 20793,
+      "sha256": "df29cb02fcaf51cd8ac0fbb3c2192e09499b6ac5e6903a5f157a34e563058c7f",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/FFTBank.cs",
+      "bytes": 2159,
+      "sha256": "de292ae828cd2f406df37b3388ce63a349edc9256053e1d128246445a681d20a",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/FirmwareCodec.cs",
+      "bytes": 17254,
+      "sha256": "6d186986277bb2318679dc36878d7b25081ed4d266f0016d74911520a60c6fe1",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/FirmwarePatch.cs",
+      "bytes": 5239,
+      "sha256": "38d2686f5477afe7934e8e121ea923f7e8c50cb1e3033e5168fca88c5069b170",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/GlassUI.cs",
+      "bytes": 6594,
+      "sha256": "ed19a806c8e34b54c5b8bd4b726e8d851b8e9bc7dc1a37d02c721364c146814a",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/IRFilters.cs",
+      "bytes": 1761,
+      "sha256": "55cf55d2f423934f1716c32bcfe28f3ca110c03b8a1a924036520690b9d828c5",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/IRLevels.cs",
+      "bytes": 4388,
+      "sha256": "59470f9d1508a70224f4897eb6f1cf47c51104dfc35b4baa864b545d96ba24bb",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/InProcessSDK.cs",
+      "bytes": 10514,
+      "sha256": "bc8d81709a9dc7c91ff6849c41e815a66e4049f7cb3675f3ee45492ef1e7b643",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/MultiIRCodec.cs",
+      "bytes": 6584,
+      "sha256": "d1d3b22e09403b0b53b6584252ffac5d1be2f9d65b7a2bb1ef671c32182153be",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/MultiIRSlots.cs",
+      "bytes": 4987,
+      "sha256": "0332aab810f8c9b0049e51632a136bd152c76a304b111fd75dda8578b3f2f158",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/OneClickApp.cs",
+      "bytes": 46849,
+      "sha256": "a29ca5efb08dc9629683056785eba300c45a3865c9287bf1e593932f82bf5379",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/OneClickBundle.cs",
+      "bytes": 4573,
+      "sha256": "176a928a0d31f8440f84d3cd9249587c2827106b07043978e461a43fc4779941",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/OneClickWorkflow.cs",
+      "bytes": 3087,
+      "sha256": "4b0262d2e252772a16120d8f0d73765d28c339f5dac78f16d5e5f64cda2aaa30",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/ProjectLinks.cs",
+      "bytes": 672,
+      "sha256": "01d28c16f89c2e093010bfab4e039d057551f79335ea2c8f2f057e468f638d88",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/source/TemplateSource.cs",
+      "bytes": 2762,
+      "sha256": "88f935047c8b2147293861700016cb3392ed0c3a6fd5548aa398398943ced7ef",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/app/test_app.py",
+      "bytes": 7270,
+      "sha256": "b5d92677a963e02c5a90fa7e816380683d352b4232799636fc08b25d187805aa",
+      "category": "NAM importer and legacy packaging source"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/IdentityProbe.cs",
+      "bytes": 1217,
+      "sha256": "73678b170b05187cc73810d60c107d6147bdb6e429f208afaa08905b9d7b3dd7",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/PreampProbe.cs",
+      "bytes": 3222,
+      "sha256": "c0379b6f2882ef09a7655e7bff48486349a02c7c73badd0151b5b2d7c8408062",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/RecoveryProbe.cs",
+      "bytes": 3577,
+      "sha256": "e2a1332b8594efdb080db586a89a0dd5838d816780547c58d6ec2b6f5502290b",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/TransferProbe.cs",
+      "bytes": 4874,
+      "sha256": "43c08898fa55d85eb401ea477a969fa4c234e7061c77eb4294d485ce3fe99003",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/WireProbe.cs",
+      "bytes": 1366,
+      "sha256": "8e50490c3df41b9fc459fe95056fa96fc003bda46099d741136eb65586935711",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_actor.c",
+      "bytes": 7236,
+      "sha256": "81a72f664e58a411e10d903d70b1210b9be13e47bf441d727f377b7f003f9c6e",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_coordinator.c",
+      "bytes": 6043,
+      "sha256": "9189ea0f6bc67f5fd2982f047240bdf4bc2b8e52e3b849f30a7a4a901bf809b6",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_coordinator.h",
+      "bytes": 1384,
+      "sha256": "0d66ce6146104e40fd78095cb4579ac1b90c6d5e1832d64d11593a9dd1ec90f1",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_identity.c",
+      "bytes": 978,
+      "sha256": "05270964c4b9e796ec562c75ea73aeeb428b9d1c4d62e8614e8c4b7d715d763c",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_identity.h",
+      "bytes": 593,
+      "sha256": "9946342b8fe679105daa1e35c4bcd17c1aea80610b33297854f03a52dcc3b631",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_load.c",
+      "bytes": 1623,
+      "sha256": "39d7e04bee3a58c9b4815743613fa76a59641b3c7723c0285d97363e7f781d30",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_load.h",
+      "bytes": 739,
+      "sha256": "2a376f6360667a35c732fdd8ef955b2857546ddb7d6b8d643f48ed2807c8f141",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_recover.c",
+      "bytes": 995,
+      "sha256": "bad8f95841a84b1ac216f72d676bd5cb26fe135b1ee817aad246532f5f9b9055",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_recover.h",
+      "bytes": 620,
+      "sha256": "094a63f8087905b5c9526bc67cb387d2967f67b51a98137751f3b51c6be6740a",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_recover_wire.c",
+      "bytes": 1873,
+      "sha256": "b855dccaffadb28952e3aee61f421d72a8201f0eba9362c5a92ec74f25512ac1",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_recover_wire.h",
+      "bytes": 549,
+      "sha256": "da71518765df7f3d6c914d031dd8cce9ce5e0ab76b264d622008292553c52246",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_seed.c",
+      "bytes": 2736,
+      "sha256": "9124dd2cb5b96267d73bcdb6aff7bd5ceb7ede6885e528bcbb306257c0a42545",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_seed.h",
+      "bytes": 1102,
+      "sha256": "7e05ac52ae8b4b58d9adbfa32cfeceefce894738fc5689f455041ca943211826",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_stage.c",
+      "bytes": 3017,
+      "sha256": "75c9b794298911b5e1922e187a71c705e14df681bdf6bcebf6ee2eb6e1710db7",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_stage.h",
+      "bytes": 851,
+      "sha256": "e333053a5c4e17c8f59be517884febab5609fde59db0f9e4f2b5579fe264cefa",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_store.c",
+      "bytes": 9722,
+      "sha256": "a7a1ab292091a0e42793744af9b45bad6d4c8b5d96f9d78bb70a6a32b44e721d",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_store.h",
+      "bytes": 2207,
+      "sha256": "18a4964a0ab97e044dba51e09a35ce600ac69de8eaf73ca86d436cb288baf057",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_wire.c",
+      "bytes": 5692,
+      "sha256": "509b4620f6a9feae2143996fe5a9003084bd648d79203a46134f14f3c58c8e0f",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/asset_wire.h",
+      "bytes": 1126,
+      "sha256": "3e92c93512397896d903f61322ffc5002212f74d1bbb7e233e7415cf7e45b97f",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/build_actor.py",
+      "bytes": 2720,
+      "sha256": "f153157998e4692acd8d916645db65817d447503f959b0e8afbd1152bd4542c5",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/build_recovery_actor.py",
+      "bytes": 19294,
+      "sha256": "87d401a90d5f5935c4d809b488470a4207e582bf4f5855e361ad40127240dec5",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/derive_leased_ir.py",
+      "bytes": 2376,
+      "sha256": "4aaae324dbe5349aedbe65662bee2f7e12a15ad0c8dacecce4feb981a990da53",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/inspect_board_memory.py",
+      "bytes": 3562,
+      "sha256": "e5ac6ed3a676ea0efd4ec7ee2ff316fa31c09ae3f6d5c539e454ea153c26d8ab",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/inspect_heap.py",
+      "bytes": 2035,
+      "sha256": "5145e782a8200d97861ddc9a6b9936b66741e7d051b9ed0d9cdcaafc60989534",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/inspect_memory.py",
+      "bytes": 2029,
+      "sha256": "87a5f73d2e4224beaca58161a44ab1d68ac17df4c077b79e4a8ebef219970e3d",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/inspect_mpu.py",
+      "bytes": 3928,
+      "sha256": "d2e99e2863d0917f7bb350dabb5cbba1df7c0eb09d53b5c3753b145586864101",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/inspect_storage.py",
+      "bytes": 2650,
+      "sha256": "9d8c40f1e524c2b61544da365e5ceb950a09e484d90ecfaf39f1fcd55a054471",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/ir_handoff.c",
+      "bytes": 3442,
+      "sha256": "45e94e6e3bb1c00c13e06082033b32a1f6d00519abe5a2145960a417b0f91c1d",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/ir_handoff.h",
+      "bytes": 603,
+      "sha256": "33edbaebb42c005cbe5b6ca93d66d4cb7cf68a62d487f948b9e061390b2d0eca",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/ir_handoff_leased.h",
+      "bytes": 579,
+      "sha256": "ed27cde4c1aae7badd86803c622815f5d2d6c8a4e65117f1983ac83368ea73f2",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/owner_loop.c",
+      "bytes": 10845,
+      "sha256": "7245861db0c21cf354ba843635f86e05381a6a35df89deee0232621f2985a769",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/plan_asset_memory.py",
+      "bytes": 2794,
+      "sha256": "bee40d75529a9bd179dde0b4d3dd93be17a4b05c10500dcd2d325a2ce48a360f",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/preamp_owner.c",
+      "bytes": 7289,
+      "sha256": "7f2808e2cbfb2c6ae3b0f7b151ae40a98bfff17f63a62e16e4a7a06ad83788e5",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/receive_wrapper.S",
+      "bytes": 487,
+      "sha256": "70926595037ea6aeef1f4c27f5f062d7987fbed9e16e0e5ff7c95d79cd76a1e9",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_actor.py",
+      "bytes": 13772,
+      "sha256": "410d322be94868135e9f6bfb0646b6ba0c4f4f3cc79aa78f16609bbc6a742720",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_boot_layout.py",
+      "bytes": 10470,
+      "sha256": "884db41265644076afa808b5d5b4bdfd92a88a735a4195f46ea3bd4c6f4fa02c",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_coordinator.py",
+      "bytes": 15111,
+      "sha256": "6e9e4cc5264fafde9973aa5a50aa394d75cdec8ce3fecc9f60d04edb8faaf4b6",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_identity.py",
+      "bytes": 6665,
+      "sha256": "4906633e9dffe472a630430ca53967501d9288087b31143bb3f6162ddca04c14",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_ir_handoff.py",
+      "bytes": 7605,
+      "sha256": "e85c0a3a675b1dcbd343f72163aa1683a61ae2d708bf4d5320cfaeeb5c4141f4",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_load.py",
+      "bytes": 6239,
+      "sha256": "56bfa6af3ee26a967eab4ccab07cd30a5dce7c5f35b4dfce66ff35d4ef3890a3",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_native_fs.py",
+      "bytes": 9313,
+      "sha256": "17f35a801064fa31a471cda3cc6b69e367f2f10016080e5ad9e59c57415c2e82",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_owner_loop.py",
+      "bytes": 26287,
+      "sha256": "e31f1accf0d2471819b9f7ef69acd4c36b369864a77acee13f2a6de934dd2453",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_pipeline.py",
+      "bytes": 6771,
+      "sha256": "1a7a2b8d4515962d2e781204e2b1270970864b7098cacacb3bb92be0145de96d",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_recover.py",
+      "bytes": 6609,
+      "sha256": "31bf751230fe4c2ea7553f95936fae4493a62925ee418499d4f54d8326b36df0",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_recovery_actor.py",
+      "bytes": 8545,
+      "sha256": "e5b24a8c13eddfedf8d0b148bbe4b320b99d66926dc99399b6d69111546172ce",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_recovery_wire.py",
+      "bytes": 9371,
+      "sha256": "dabe49110df4f0f0ee60b505d23e1e47dc2235d62e9ed24e779b63ce0b173c04",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_seed.py",
+      "bytes": 6727,
+      "sha256": "ef666fa317c73257485faf9ba19d0f6b21153bf6a7d3ea45069a49b26b86db13",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_seeded_actor.py",
+      "bytes": 5648,
+      "sha256": "59149fbd5679a3493d34aaf5b1dd09350e3283655742b6e40f18f15b3bd161b5",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_stage.py",
+      "bytes": 6036,
+      "sha256": "9072d4ef3f0383f97a8a7405a98e4164b3501f5d173efb0df476e03d1154cb34",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_store.py",
+      "bytes": 14769,
+      "sha256": "cc1295413a01dbf4f6f27b75fe781f4ae1f04a402409fe28fee6ca73d90cf88d",
+      "category": "r103 routing preamps owner and offline tooling",
+      "snapshot_adjustment": "Test-fixture paths only: environment variables or synthetic fixture locations; runtime algorithm unchanged."
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_transfer.py",
+      "bytes": 9990,
+      "sha256": "a9c1862bd7d1bee9a32efe12f6fae6c0b23fdddfd097048a5f4f5655e3d39d62",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/asset-lab/verify_wire.py",
+      "bytes": 10957,
+      "sha256": "75ce9397b9c75a50b3f66e83028b3fe87cec25945660b1d11862652cef2450ae",
+      "category": "r103 routing preamps owner and offline tooling",
+      "snapshot_adjustment": "Test-fixture paths only: environment variables or synthetic fixture locations; runtime algorithm unchanged."
+    },
+    {
+      "path": "research/catalyst-nam/autoboot.c",
+      "bytes": 15126,
+      "sha256": "90550ec239d73785b97c0825db90f390ef70bf0fcf59a30c2ef8bbd7e689b392",
+      "category": "NAM engine preferred source and generation"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/characterize_r94.py",
+      "bytes": 7846,
+      "sha256": "efafd26b14d83b659ec5b88856dedc11322c2c070f95ee755d45830c36eeb5e0",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/inspect_podgo_reference.py",
+      "bytes": 3612,
+      "sha256": "6239b621100e632e4ab43cec4186f0b8274a097d5bb9c858ef8a1229c145e664",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/lab.ld",
+      "bytes": 220,
+      "sha256": "547c4222289afc3fd6bfc8d1062f4d3551bad088f764acca076ea050e136839c",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/preamp.c",
+      "bytes": 4996,
+      "sha256": "d3e37b7cbd5b6a3d5f4236da0c640d4abb73a17074b429aa0430473c463b4830",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/preamp.h",
+      "bytes": 600,
+      "sha256": "714f7857c59b3e525d7b49381827842fa99e201ab8fa2924f7fcfaa83f325ba3",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/preset_job.c",
+      "bytes": 3287,
+      "sha256": "e27571fd74107757a7755e9678d2e4ff6fbc38ecab56d9d42b9d07722c1fc500",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/preset_job.h",
+      "bytes": 1180,
+      "sha256": "fe39f5ea44099fe222f0c9ad28fd72fb12e6a0029965657de5cadffd4c623d1f",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/preset_store.c",
+      "bytes": 7395,
+      "sha256": "ac57561acfd12a430fd6e6b7358f8357d088adb8c3a7e517c1fe8c2ae34a79b0",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/preset_store.h",
+      "bytes": 1935,
+      "sha256": "580215fe95199baeb1e46ef79eae58e815ce90f742362802ca01f2b0d9ef1cf5",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/tonal-v2/lab.ld",
+      "bytes": 220,
+      "sha256": "547c4222289afc3fd6bfc8d1062f4d3551bad088f764acca076ea050e136839c",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/tonal-v2/preamp.c",
+      "bytes": 7795,
+      "sha256": "a38f96d68e3f2938dd0b2821d34771ef96e16938b69102bd7c00fcc4ae10bb99",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/tonal-v2/preamp.h",
+      "bytes": 600,
+      "sha256": "714f7857c59b3e525d7b49381827842fa99e201ab8fa2924f7fcfaa83f325ba3",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/tonal-v2/verify.py",
+      "bytes": 12764,
+      "sha256": "cb1dd89f0a6c6be55d31df83f774affab5353ccd8cc290d98c4f34ad14d65af0",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/verify_lab.py",
+      "bytes": 17034,
+      "sha256": "14f87924721989d7edee0b60656431ce9acb4751aef75f5de757c1463d829db5",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/verify_optimization.py",
+      "bytes": 2535,
+      "sha256": "86ffdfe5bbe8b4b7a42fbd6cef738caa25b643d8dfb603dc54a29ced75884f7a",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/boost-lab/verify_preset_store.py",
+      "bytes": 7152,
+      "sha256": "4c687c44a4b288adfabdfd60ef0e006abac3194d40246f8ca5975a3e3ccde729",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/build-fast/selected-block-fma/kernel-embedded.c",
+      "bytes": 4589,
+      "sha256": "3946e1ffdfe2df328fdabb9d6cdf544b283cf413b4947f51f57775ec416937ae",
+      "category": "prior kernel comparator source"
+    },
+    {
+      "path": "research/catalyst-nam/build-fast/span-max-r94/kernel-embedded.c",
+      "bytes": 4738,
+      "sha256": "553ad81a25341c00febc1c1758d97f50ee969b9387bec97f7fd1a5fdb30e5836",
+      "category": "exact r103 audio translation unit"
+    },
+    {
+      "path": "research/catalyst-nam/build.py",
+      "bytes": 4636,
+      "sha256": "11c3b49abe177787b468652dae3fad8b04b9dc5ae3dcf247d4e98c654902af1b",
+      "category": "NAM engine preferred source and generation"
+    },
+    {
+      "path": "research/catalyst-nam/build/geometry.h",
+      "bytes": 775,
+      "sha256": "cbc25527e5a57f20bd1dc4b667691c2317bc107e376010ad4c0d4e1568cc3a84",
+      "category": "generated model geometry source"
+    },
+    {
+      "path": "research/catalyst-nam/dual-lab/build_lab.py",
+      "bytes": 15894,
+      "sha256": "380e9d22260699dcdf9e00058619dc30f4f9e981bab8c149c3338913c3b12828",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/dual-lab/lease-build/adapter.c",
+      "bytes": 19841,
+      "sha256": "79a7cb30734e0dffbd9d6fafef55cfe9bb3768735f6e1701cee47d374a56d584",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/dual-lab/lease-build/lab.ld",
+      "bytes": 190,
+      "sha256": "0112c010ad8618d0c97d20860080f68d92c531b041be489972baa4558de7a478",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/dual-lab/lease-build/trial_tables.h",
+      "bytes": 13410,
+      "sha256": "6dd01a79955e0501433c17b7bf5df637f97e25a7ebb9519c3b2cc8c25bd8e5e1",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/dual-lab/lease-build/trial_target.h",
+      "bytes": 1172,
+      "sha256": "a8e4dff0bf62d288ea361f4dce0223732778a9e5d2fd438eedba4063482a57ad",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/dual-lab/verify_lab.py",
+      "bytes": 14035,
+      "sha256": "ec5732f9a7e445538f34924a721addd87bcb43f53729d2c52b86f6ef5bbdd01f",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/dual-lab/verify_leases.py",
+      "bytes": 4053,
+      "sha256": "1a6289bff3fce15ac3f71a1b532f3baa136f0bddf2c45d3bcae6f98bdfbbea2b",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/dual-lab/verify_native.py",
+      "bytes": 5651,
+      "sha256": "3d1e34114bc0dad60f6d053c935f3417456509b2f4f44ea04fc7fd8af4bb8066",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/dual-lab/verify_native_controls.py",
+      "bytes": 3858,
+      "sha256": "2eabe4f78c61dfbe3e27e54a5c2f5c4f02b99c4a82f203f87bd23c8b1f03cdbf",
+      "category": "r103 routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/evidence/factory-amp-signatures.json",
+      "bytes": 2803,
+      "sha256": "1427a5c44b5bee2821d88a594b64fdf771cedeef3e414e22fdd7efb68d04fcd6",
+      "category": "source model signature constants"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/.gitmodules",
+      "bytes": 238,
+      "sha256": "628aeb9d268027a99816f8f4b6540b0acc6fa23341247068155049e6ff70a0ab",
+      "category": "upstream reference provenance and build description"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/CMakeLists.txt",
+      "bytes": 2576,
+      "sha256": "2d54ccbd5fa80cda2bdf4c7d9efda8d13ace2332e3d206a50cb7c38e06353127",
+      "category": "upstream reference provenance and build description"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/LICENSE",
+      "bytes": 1093,
+      "sha256": "c2092a2b52a2dd660324dd31abfa61ed2e43262a150fa903f1083c8b0be2c652",
+      "category": "upstream reference provenance and build description"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/activations.cpp",
+      "bytes": 8233,
+      "sha256": "75b9ca6200b24c71fbbd303d567c1cc38899f301d1af87ff02666c757e5148ca",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/activations.h",
+      "bytes": 10854,
+      "sha256": "d02ce04141838107ed1124d276a870bf05d86fd61c43887055c703c1cce5e09c",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/compiler.h",
+      "bytes": 148,
+      "sha256": "9088110481d40ddcd61a71cf6bd88f3ae0f6ffa6a659b64b81321848979bf0d5",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/container.cpp",
+      "bytes": 6063,
+      "sha256": "3e9ae8b38063e5e917bd848f305d51bcd29744fe132298dfb8f8ce9709d064da",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/container.h",
+      "bytes": 1928,
+      "sha256": "82e0aca57c93484e1d2fa284a2d9dcb0e48589beefa413d3025ace999178278f",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/conv1d.cpp",
+      "bytes": 36281,
+      "sha256": "1ea2cb75bff9530af38b6cedcb5f8fe7ab57fda9010ef26fa4d1bda45f7c30f4",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/conv1d.h",
+      "bytes": 6259,
+      "sha256": "c8e93584277bdf3048bd77e963e2c89ddc0338a98ac956dd45b40f257ce81d7e",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/convnet.cpp",
+      "bytes": 13450,
+      "sha256": "16fa5099a22cdf192c24ddc753b40803083701eb42121c49bc11cfaeba5ad4cc",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/convnet.h",
+      "bytes": 6975,
+      "sha256": "5f1e0cedeaa0332f98391a347182ec5c8eb3fece78bf30e7f3baf3d67e88ffd8",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/dsp.cpp",
+      "bytes": 29387,
+      "sha256": "dc1849faefa88734f0e01c5c9b169e1b615f31846413e7948d6fa80c0511540d",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/dsp.h",
+      "bytes": 15613,
+      "sha256": "6bc92edfedbc83ff25b25e2b5ab5fa5eabef76ab9e82600b29e86e71dcec2688",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/film.h",
+      "bytes": 8700,
+      "sha256": "c375c60b98e588ed5b3f02adc6c82789d870bdff06609b863737c3255c69497e",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/gating_activations.h",
+      "bytes": 8742,
+      "sha256": "003845773c404e7faffe2e71c6a45687f3460a296486a99a8630bacfd6caaaaa",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/get_dsp.cpp",
+      "bytes": 9895,
+      "sha256": "5beaf0b3d7f92be500d009d6507b5542b3e1db65fe20a403f2774cab556757e2",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/get_dsp.h",
+      "bytes": 5729,
+      "sha256": "15319d015e014632e7afd86ff34ec49f5c2364aaf28417d7f57dd3a42871a029",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/linear.cpp",
+      "bytes": 22622,
+      "sha256": "cf3f6289cdc4726cf415965d4210a9c432687cdbb0bcecc775e30051fe029fad",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/linear.h",
+      "bytes": 5755,
+      "sha256": "fd6072dad22e985128520656f3a88022259021d9268c03352f403a49d7d24bc8",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/lstm.cpp",
+      "bytes": 7357,
+      "sha256": "6c90253187ffefb705340f091772e615e5d416f70466549f06e0824c9691ace6",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/lstm.h",
+      "bytes": 4168,
+      "sha256": "84e782d040d676cc1f365cbc97b4561b96250638a765c5a7d62a30e0c17339a5",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/model_config.h",
+      "bytes": 4622,
+      "sha256": "01f49c5f2e19b229d915e8fe92613c37848a11373b504911e39d75e99f760243",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/nam_file.cpp",
+      "bytes": 1310,
+      "sha256": "49f3b156722011d0a5f449a63b1998d59874d89d10ed39fdabf3e13ea1c7cbc9",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/nam_file.h",
+      "bytes": 639,
+      "sha256": "6db3e206038128868c3aefb0fc268d924e311df7d596e8a074961641de80653c",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/registry.h",
+      "bytes": 2354,
+      "sha256": "3acd5c30af15290263a532fb327853a58ee4e89c7094002818b30573d8305be5",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/ring_buffer.cpp",
+      "bytes": 3881,
+      "sha256": "34cbe2a5cbc79538c49f3a5927e19e6b3f9d231b842032d6cf587541ae4f343e",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/ring_buffer.h",
+      "bytes": 3220,
+      "sha256": "dd3b36889558466143e8529917f24be61abeb4787f4ea1ebd5e4f8b64035351a",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/sequential.cpp",
+      "bytes": 7662,
+      "sha256": "bbcf8bf7da11dd8af823ee1519a7cfe2cc0c321b1feb63d3f7f9d37acaa60fd4",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/sequential.h",
+      "bytes": 1514,
+      "sha256": "ac9df8dd3278da8b2130461fd27c655c4d72a807213718fc6e5b823eb2f43164",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/slimmable.h",
+      "bytes": 1017,
+      "sha256": "a8cd4ff4ebf13059d5734e4d6ee6b3690b3ba24ae69713e0c277e1a1804eef0e",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/util.cpp",
+      "bytes": 265,
+      "sha256": "69b181adc2b2fd2ef78e1e3af1b80043e8c5f8b4d4377395a487e678dd58921d",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/util.h",
+      "bytes": 342,
+      "sha256": "7af1405acc15ed63f922821d973228a7bafe3c64ddc198e33e81bf8a170807ca",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/version.h",
+      "bytes": 410,
+      "sha256": "c3fe7f4a85b4411c9f363ace721c644f1edf0b99a77ffae0ec3b0affb6163687",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/wav.cpp",
+      "bytes": 5991,
+      "sha256": "f062c435e453934d4bed5e8933c1ca91c6e54117ce2b9aca46bc52c607506336",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/wav.h",
+      "bytes": 400,
+      "sha256": "e1203ee57ec6f2bfeba7ea32a40aa75b9d47008468c2d619a02fabf38bddf1b8",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/wavenet/a2_fast.cpp",
+      "bytes": 38072,
+      "sha256": "def29a9c3c95c2e02136ffbd28b36dc01e1563b18f3bd1445eb95d1472ef9ccf",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/wavenet/a2_fast.h",
+      "bytes": 2255,
+      "sha256": "9f640b2ea465a93716e47db7c835d667a3fa5d775d927c366877e17012832d12",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/wavenet/detail.h",
+      "bytes": 18163,
+      "sha256": "5d548abd3314811d7de0be8fb77c2f325d329b179143dddca725580b7423b9e3",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/wavenet/model.cpp",
+      "bytes": 52900,
+      "sha256": "8bff884811832efd03737d6683d3c574d19430c956258078a1168e0b1beebdcd",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/wavenet/model.h",
+      "bytes": 6273,
+      "sha256": "46d92bab3120166df3cf98ac7a2ee4f3c9d5476031cff3e66b3557ac80dc0d4a",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/wavenet/params.h",
+      "bytes": 17261,
+      "sha256": "90ffda370ee4d22a9756b96263b350b2ee7bc1514c7858b9e10fade33a1e976d",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/wavenet/slimmable.cpp",
+      "bytes": 23202,
+      "sha256": "317a2feeebf60d85e502c61199f6f8d5d609107d5ac4ca434ecc5eaa962418bf",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/NAM/wavenet/slimmable.h",
+      "bytes": 4861,
+      "sha256": "c5aca7688659e8ab91c27ec4b46ee25d156a1e146cfd665b7fe3abfa576a3c1e",
+      "category": "upstream NAM reference preferred source"
+    },
+    {
+      "path": "research/catalyst-nam/external/NeuralAmpModelerCore/README.md",
+      "bytes": 2210,
+      "sha256": "d69119759b6a19cd3a3d2879a4069d0337381163811e4626fa82023f03b18928",
+      "category": "upstream reference provenance and build description"
+    },
+    {
+      "path": "research/catalyst-nam/extract_amp_signatures.py",
+      "bytes": 1978,
+      "sha256": "5628ffb87efc234b0dfa5d1c9ff3088f2ea6171a4df088c1887213218d2a8084",
+      "category": "NAM engine preferred source and generation"
+    },
+    {
+      "path": "research/catalyst-nam/generate_autoboot.py",
+      "bytes": 3651,
+      "sha256": "f40989394f217c933df86a538e791839d0932bf0f6c68e7879f761033c0dd1af",
+      "category": "NAM engine preferred source and generation"
+    },
+    {
+      "path": "research/catalyst-nam/kernel.c",
+      "bytes": 6224,
+      "sha256": "745f4a5f2a54129cb40f6111a09b710507325d4a4b5f2713c39a2501c3a264ce",
+      "category": "NAM engine preferred source and generation"
+    },
+    {
+      "path": "research/catalyst-nam/kernel_block_process.inc",
+      "bytes": 3711,
+      "sha256": "8a62fab6ac67e7ba91ca2db56f7fd3a222316538a182a4850a42a2e9c504f398",
+      "category": "NAM engine preferred source and generation"
+    },
+    {
+      "path": "research/catalyst-nam/kernel_tile4_process.inc",
+      "bytes": 3695,
+      "sha256": "5c91d49a889d858c464476ff490bf909afbafc7ce0568d2d4b86bafc8a99be90",
+      "category": "NAM engine preferred source and generation"
+    },
+    {
+      "path": "research/catalyst-nam/lab.ld",
+      "bytes": 221,
+      "sha256": "76f471f31a26f1a56c27da885c501b4da999ba92085014ae10dccf81a321d78a",
+      "category": "NAM engine preferred source and generation"
+    },
+    {
+      "path": "research/catalyst-nam/model.py",
+      "bytes": 5154,
+      "sha256": "388b00657d56ea6fc83140203f5fd45bc5b997ad6c0f9f271c83f5ac89940078",
+      "category": "NAM engine preferred source and generation"
+    },
+    {
+      "path": "research/catalyst-nam/profile_span_kernel.py",
+      "bytes": 5583,
+      "sha256": "93a007c9b25bd43cca13eaedf3fb6536cba824386d059487492a14b08c6536f4",
+      "category": "NAM engine preferred source and generation",
+      "snapshot_adjustment": "Test-fixture paths only: environment variables or synthetic fixture locations; runtime algorithm unchanged."
+    },
+    {
+      "path": "research/catalyst-nam/reference.cpp",
+      "bytes": 1379,
+      "sha256": "cac9c59c4b14f28df11022b82b93d493365adb61232b90ada0425eadc3e7395a",
+      "category": "NAM engine preferred source and generation"
+    },
+    {
+      "path": "research/catalyst-nam/target.py",
+      "bytes": 454,
+      "sha256": "bdd2414e12ed5a855d0934d8a1fdcb1112962974569779ce670fd7274a6bff6a",
+      "category": "NAM engine preferred source and generation"
+    },
+    {
+      "path": "research/catalyst-nam/trial.c",
+      "bytes": 15233,
+      "sha256": "19ef8e0b866aef3064e267bd9c3051233471cbc1d88798f2186e9c1c773e383c",
+      "category": "NAM engine preferred source and generation"
+    },
+    {
+      "path": "research/catalyst-nam/trial_build.py",
+      "bytes": 7609,
+      "sha256": "a797326dffcc7184168d3c2312ae3bdb278a29144abaf1a4b38350b8287c64b0",
+      "category": "NAM engine preferred source and generation"
+    },
+    {
+      "path": "research/catalyst-nam/verify.py",
+      "bytes": 9178,
+      "sha256": "42f20ed531125cdc527cf3d19f7ce3f234bfdc5c3903ab48a39a095f28aa4d9b",
+      "category": "NAM engine preferred source and generation"
+    }
+  ],
+  "test_fixture_adjustments": {
+    "research/catalyst-editor/verify_ir_import.py": "Test-fixture paths only: environment variables or synthetic fixture locations; runtime algorithm unchanged.",
+    "research/catalyst-nam/asset-lab/verify_store.py": "Test-fixture paths only: environment variables or synthetic fixture locations; runtime algorithm unchanged.",
+    "research/catalyst-nam/asset-lab/verify_wire.py": "Test-fixture paths only: environment variables or synthetic fixture locations; runtime algorithm unchanged.",
+    "research/catalyst-nam/profile_span_kernel.py": "Test-fixture paths only: environment variables or synthetic fixture locations; runtime algorithm unchanged."
+  },
+  "omitted_dependencies": [
+    "Manufacturer SDK/runtime DLLs and editor/update bundles",
+    "Original and custom firmware CTF/BIN/ELF images, extracted segments and runtime maps/database",
+    "All demo and private NAM/WAV/IR payloads",
+    "Compiled legacy component DLLs and their historical proof/build-output files",
+    "Zig/compiler installations, emulator packages and caches",
+    "Upstream reference Eigen/nlohmann/AudioDSPTools dependency trees and example models/audio",
+    "Private presets, backups, USB logs, hardware-trial reports and credentials"
+  ],
+  "reproducibility": "Corresponding source snapshot. The complete single-EXE release cannot be rebuilt from this tree alone without separately supplied manufacturer assets, seed payloads, derived inputs and generated verification artifacts."
+}

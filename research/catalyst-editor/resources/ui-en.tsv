@@ -1,0 +1,198 @@
+SONIDO	SOUND
+SISTEMA	SYSTEM
+AVANZADO	ADVANCED
+CAMBIAR NAM / IR	CHANGE NAM / IR
+Cambiar NAM / IR	Change NAM / IR
+BANCO	BANK
+Renombrar	Rename
+Guardar preset	Save preset
+AMPLIFICADOR / NAM	AMPLIFIER / NAM
+PUERTA DE RUIDO	NOISE GATE
+AMPLIFICADOR · AVANZADO	AMPLIFIER · ADVANCED
+AURICULARES · DIRECT OUT · USB	HEADPHONES · DIRECT OUT · USB
+EFECTO 1	EFFECT 1
+EFECTO 2	EFFECT 2
+IR ON	IR ON
+BIBLIOTECA DE PRESETS	PRESET LIBRARY
+Guardar preset actual	Save current preset
+Exportar preset…	Export preset…
+Abrir preset…	Open preset…
+Copia completa…	Full backup…
+Restaurar copia…	Restore backup…
+Abre un preset para editarlo. Pulsa «Guardar preset» para conservar los cambios en el amplificador.	Open a preset to edit it. Press “Save preset” to keep your changes on the amplifier.
+Cambios sin guardar	Unsaved changes
+AJUSTES GLOBALES	GLOBAL SETTINGS
+EXPRESIÓN	EXPRESSION
+Pedal de expresión	Expression pedal
+Pedal de volumen	Volume pedal
+Footswitch momentáneo	Momentary footswitch
+Colas de delay	Delay trails
+Colas de reverb	Reverb trails
+Canal MIDI	MIDI channel
+Asignación activa	Assignment enabled
+Destino	Target
+Volumen PRE/POST	Volume PRE/POST
+AFINADOR	TUNER
+Afinador	Tuner
+Afinador ON / OFF	Tuner ON / OFF
+Afinador desactivado	Tuner off
+Toca una nota	Play a note
+Baja	Flat
+Alta	Sharp
+TEMPO	TEMPO
+PARÁMETROS AVANZADOS	ADVANCED PARAMETERS
+Edita los valores exactos disponibles en el preset actual.	Edit the exact values available in the current preset.
+Grupo	Group
+Parámetro	Parameter
+Valor exacto	Exact value
+Rango	Range
+Lectura	Reading
+ACTIVIDAD	ACTIVITY
+Conectar USB	Connect USB
+Desconectar USB	Disconnect USB
+Amplificador conectado	Amplifier connected
+Amplificador NO detectado	Amplifier NOT detected
+Esperando conexión del amplificador	Waiting for amplifier connection
+Vista previa	Preview
+Vista de diseño · Sin conexión USB	Design preview · No USB connection
+Vista de diseño: los cambios son simulados.	Design preview: changes are simulated.
+Vista de diseño · los cambios son simulados.	Design preview · Changes are simulated.
+Conecta el amplificador para leer sus ajustes.	Connect the amplifier to read its settings.
+Enviando ajuste…	Sending setting…
+Ajustes enviados · guarda el preset para conservarlos.	Settings sent · Save the preset to keep them.
+Desarrollado por conr4d	Developed by conr4d
+Operación en curso…	Operation in progress…
+Espera a que termine la operación antes de cerrar.	Wait for the operation to finish before closing.
+Loading & Syncing	Loading & Syncing
+Preparando la interfaz…	Preparing the interface…
+Sincronizando los ajustes del amplificador…	Syncing amplifier settings…
+Leyendo los ajustes del amplificador…	Reading amplifier settings…
+Preparando los controles…	Preparing controls…
+Preparando el cambio de NAM e IR…	Preparing NAM and IR transfer…
+Preparando el instalador de firmware…	Preparing the firmware installer…
+Recuperando la conexión del editor…	Reconnecting the editor…
+Varios amplificadores detectados	Multiple amplifiers detected
+Conecta un solo Catalyst para sincronizar sus ajustes.	Connect one Catalyst to sync its settings.
+Conecta un Catalyst por USB o abre la vista previa para explorar el editor.	Connect a Catalyst by USB or open the preview to explore the editor.
+No se pudo sincronizar	Could not sync
+Reintentar USB	Retry USB
+Abrir vista previa	Open preview
+Continuar sin USB	Continue without USB
+Comprobando la conexión USB…	Checking USB connection…
+Buscando el amplificador…	Looking for the amplifier…
+1. Cargar NAM…	1. Load NAM…
+1. Cargar IR…	1. Load IR…
+Cargar NAM…	Load NAM…
+Cargar IR…	Load IR…
+Cargar IR	Load IR
+Cargar NAM	Load NAM
+2. Conectar al ampli	2. Connect to amp
+Vaciar	Clear
+Volumen de salida automático	Automatic output level
+Volumen automático	Automatic level
+Calculando volumen…	Calculating level…
+Cortes automáticos	Automatic cuts
+Normalización y cortes se aplican antes de enviar el IR.	Normalization and cuts are applied before sending the IR.
+Arrastra un archivo o pulsa «Cargar NAM»	Drop a file or click “Load NAM”
+Arrastra un archivo o pulsa «Cargar IR»	Drop a file or click “Load IR”
+Contenido del ampli pendiente de consultar	Amplifier content not yet checked
+En el ampli: sin recurso registrado	On amp: no resource registered
+Consulta el guardado anterior antes de reenviar.	Check the previous save before sending again.
+Envío en curso. Espera a que termine para tocar y mantén el USB y la alimentación conectados.	Transfer in progress. Wait until it finishes before playing; keep USB and power connected.
+Selección local vaciada. No se ha borrado nada del amplificador.	Local selection cleared. Nothing was deleted from the amplifier.
+Vista previa · Preparación local	Preview · Local preparation
+Receptor de datos sin comprobar	Data receiver not yet checked
+Conexión de datos sin comprobar	Data connection not yet checked
+Receptor de datos conectado	Data receiver connected
+Receptor compatible · Carga de datos disponible	Compatible receiver · Data transfer available
+Transferencia anterior pendiente de comprobar	Previous transfer needs verification
+Conexión de datos pendiente	Data connection pending
+Comprobando el receptor de datos…	Checking the data receiver…
+Receptor de datos comprobado. No se ha instalado firmware.	Data receiver checked. No firmware was installed.
+Guardado pendiente de comprobar	Save needs verification
+Comprobado: el envío no se guardó. Puedes volver a enviarlo.	Checked: the transfer was not saved. You can send it again.
+Instalar Custom Firmware	Install Custom Firmware
+Reinstalar Custom Firmware	Reinstall Custom Firmware
+Incluye: NAM 1 y NAM 2 · 3 IR de prueba, después pueden cambiarse desde «Cambiar NAM / IR».	Includes: NAM 1 and NAM 2 · 3 test IRs. You can replace them later in “Change NAM / IR”.
+Comprobar arranque	Verify startup
+La instalación incluye copia de presets y requiere reiniciar el ampli al terminar.	Installation includes a preset backup and requires restarting the amplifier when finished.
+Apaga y enciende el ampli normalmente, sin botones. Después pulsa «Comprobar arranque».	Turn the amp off and on normally, without holding any buttons. Then press “Verify startup”.
+Comprueba el resultado anterior antes de repetir una instalación.	Verify the previous result before repeating an installation.
+✓ Firmware instalado y arranque comprobado	✓ Firmware installed and startup verified
+Pendiente de comprobar el arranque	Startup verification pending
+Los ejemplos vienen incluidos; no necesitas cargar archivos.	The examples are included; you do not need to load any files.
+Vista previa · Instalación desactivada	Preview · Installation disabled
+Transferencia terminada · Reinicia el amplificador	Transfer complete · Restart the amplifier
+Instalación anterior pendiente de comprobar	Previous installation needs verification
+Revisa el registro de la instalación anterior	Check the previous installation log
+Faltan los ejemplos integrados	The embedded examples are missing
+Conecta el amplificador para instalar el Custom Firmware	Connect the amplifier to install the Custom Firmware
+La instalación de este modelo aún no está habilitada	Installation is not yet enabled for this model
+Preparado para reinstalar el Custom Firmware	Ready to reinstall the Custom Firmware
+Preparado para instalar el Custom Firmware	Ready to install the Custom Firmware
+Transferencia terminada. Apaga y enciende tu amplificador normalmente, sin botones.	Transfer complete. Turn your amplifier off and on normally, without holding any buttons.
+✓ Firmware inicial conectado y comprobado. Ya puedes cambiar NAM e IR sin instalar de nuevo el firmware.	✓ Initial firmware connected and verified. You can now change NAMs and IRs without reinstalling the firmware.
+Conexión de datos cerrada	Data connection closed
+Conexión USB cerrada	USB connection closed
+Comprobar receptor	Check receiver
+Cierra la conexión de datos antes de cambiar de modo.	Close the data connection before switching modes.
+Espera a que termine la operación.	Wait for the operation to finish.
+La vista previa no puede conectar un dispositivo.	Preview cannot connect to a device.
+La vista previa no guarda presets en el amplificador.	Preview does not save presets to the amplifier.
+Selecciona un preset A o B antes de guardar.	Select an A or B preset before saving.
+No se ha guardado ningún preset.	No preset was saved.
+Preset exportado.	Preset exported.
+Copia completa exportada.	Full backup exported.
+Restaurar copia	Restore backup
+Restaurar esta copia sustituye los presets y ajustes del ampli. ¿Continuar?	Restoring this backup replaces the amp's presets and settings. Continue?
+Nombre de 1 a 32 caracteres	Enter a name of 1 to 32 characters
+Preset demasiado grande	Preset is too large
+IR no admitido	Unsupported IR
+NAM no admitido	Unsupported NAM
+Archivo no admitido	Unsupported file
+GRUPO 1	GROUP 1
+GRUPO 2	GROUP 2
+Reverb	Reverb
+REVERBERACIÓN	REVERB
+REVERBS	REVERBS
+RETARDOS	DELAYS
+MODULACIÓN	MODULATION
+TONO / SINTETIZADOR	PITCH / SYNTH
+PITCH / SÍNTESIS	PITCH / SYNTH
+TAP Tempo	TAP Tempo
+Canal A/B	Channel A/B
+Efecto 1: ON/OFF	Effect 1: ON/OFF
+Boost: ON/OFF	Boost: ON/OFF
+Efecto 2: ON/OFF	Effect 2: ON/OFF
+Efectos 1 y 2: ON/OFF	Effects 1 and 2: ON/OFF
+Boost y efecto 1: ON/OFF	Boost and effect 1: ON/OFF
+Boost y efecto 2: ON/OFF	Boost and effect 2: ON/OFF
+Siguiente banco	Next bank
+Gain / Drive	Gain / Drive
+Level	Level
+Tone	Tone
+Nota	Note
+Modificado	Modified
+Banco	Bank
+Canal	Channel
+Destino expresión	Expression target
+Mínimo	Minimum
+Máximo	Maximum
+Modulación	Modulation
+Distorsión	Distortion
+Pitch / Octava	Pitch / Octave
+PITCH / OCTAVA	PITCH / OCTAVE
+DISTORSIÓN	DISTORTION
+Preparando la vista previa…	Preparing preview…
+Preset Catalyst (*.catl6p)|*.catl6p	Catalyst preset (*.catl6p)|*.catl6p
+Copia Catalyst (*.catl6a)|*.catl6a	Catalyst backup (*.catl6a)|*.catl6a
+IR vacío	Empty IR
+Ver Firmware CF	View Firmware CF
+Comprobar USB	Check USB
+Instala el Custom Firmware para desbloquear el editor.	Install the Custom Firmware to unlock the editor.
+Cierra la conexión de datos antes de comprobar el USB.	Close the data connection before checking USB.
+El Custom Firmware no devuelve un identificador compatible.	The Custom Firmware does not return a compatible identifier.
+Custom Firmware reconocido. Editor desbloqueado.	Custom Firmware recognized. Editor unlocked.
+
+Entrada NAM	NAM input
+Entrada: saturación y respuesta. Salida: volumen final.	Input: saturation and response. Output: final volume.

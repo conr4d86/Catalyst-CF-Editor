@@ -1,0 +1,163 @@
+{
+  "status": "NATIVE_FACTORY_AMP_SIGNATURES_EXTRACTED_OFFLINE",
+  "parent_sha256": "439aa011588a170219eca2993bcdc1009930d7df891fb5e5498dc26341e4a810",
+  "models": [
+    {
+      "model_index": 3,
+      "name": "HD2_AmpImpossibleClean",
+      "symbol": 24,
+      "signature": [
+        1,
+        4,
+        53,
+        150320,
+        4,
+        156364
+      ]
+    },
+    {
+      "model_index": 8,
+      "name": "HD2_AmpImpossibleMetal",
+      "symbol": 72,
+      "signature": [
+        1,
+        7,
+        84,
+        140316,
+        5,
+        150268
+      ]
+    },
+    {
+      "model_index": 9,
+      "name": "HD2_AmpImpossibleBoutique",
+      "symbol": 80,
+      "signature": [
+        1,
+        4,
+        60,
+        133340,
+        4,
+        140280
+      ]
+    },
+    {
+      "model_index": 10,
+      "name": "HD2_AmpImpossibleAC",
+      "symbol": 82,
+      "signature": [
+        1,
+        5,
+        78,
+        124648,
+        5,
+        133288
+      ]
+    },
+    {
+      "model_index": 12,
+      "name": "HD2_AmpImpossibleCrunch",
+      "symbol": 86,
+      "signature": [
+        1,
+        9,
+        89,
+        113136,
+        5,
+        124596
+      ]
+    },
+    {
+      "model_index": 13,
+      "name": "HD2_AmpImpossibleDynamic",
+      "symbol": 90,
+      "signature": [
+        1,
+        7,
+        80,
+        103540,
+        5,
+        113084
+      ]
+    },
+    {
+      "model_index": 14,
+      "name": "A45_AmpLine6Ventoux",
+      "symbol": 102,
+      "signature": [
+        1,
+        7,
+        62,
+        178012,
+        4,
+        185080
+      ]
+    },
+    {
+      "model_index": 15,
+      "name": "A45_AmpLine62204Mod",
+      "symbol": 108,
+      "signature": [
+        1,
+        4,
+        81,
+        167024,
+        4,
+        177976
+      ]
+    },
+    {
+      "model_index": 16,
+      "name": "A45_AmpGSG100",
+      "symbol": 116,
+      "signature": [
+        5,
+        5,
+        90,
+        156400,
+        5,
+        166972
+      ]
+    },
+    {
+      "model_index": 17,
+      "name": "A45_AmpImpossibleMetalMkII",
+      "symbol": 154,
+      "signature": [
+        1,
+        4,
+        58,
+        194600,
+        4,
+        200904
+      ]
+    },
+    {
+      "model_index": 18,
+      "name": "A45_AmpImpossibleCleanMkII",
+      "symbol": 157,
+      "signature": [
+        33,
+        6,
+        75,
+        185116,
+        5,
+        194548
+      ]
+    },
+    {
+      "model_index": 19,
+      "name": "A45_AmpImpossibleElmsleyNFB",
+      "symbol": 159,
+      "signature": [
+        1,
+        5,
+        66,
+        200940,
+        4,
+        209572
+      ]
+    }
+  ],
+  "hardware_accessed": false
+}

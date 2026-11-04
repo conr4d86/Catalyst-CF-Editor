@@ -1,0 +1,1 @@
+namespace CFEditor { static class EmbeddedFirmwareInfo { public const string ComponentHash="4efb29bf4154004b948627c57accbb664f446e405f9858073066668674d6c064"; public const string BaselineHash="5ea2edc9b8aec952a05c5c1b6832579eae02e82ee65e265d0a084171f8e51901"; public const bool FamilyEnabled=true; } }

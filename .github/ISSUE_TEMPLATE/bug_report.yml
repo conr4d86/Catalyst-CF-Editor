@@ -1,0 +1,32 @@
+name: Bug report / Informar de un fallo
+description: Report a reproducible app or firmware problem / Describe un fallo reproducible
+body:
+  - type: markdown
+    attributes:
+      value: Do not attach private presets, backups, device IDs or personal paths. No adjuntes presets, copias, IDs de dispositivo ni rutas personales.
+  - type: input
+    id: version
+    attributes:
+      label: App version / Versión de la app
+      placeholder: v1.0
+    validations:
+      required: true
+  - type: input
+    id: amplifier
+    attributes:
+      label: Amplifier model and Windows version / Modelo de ampli y versión de Windows
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and expected result / Pasos y resultado esperado
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result and error text / Resultado y texto del error
+      description: Redact personal information before attaching logs or screenshots. Oculta los datos personales antes de adjuntar registros o capturas.
+    validations:
+      required: true
