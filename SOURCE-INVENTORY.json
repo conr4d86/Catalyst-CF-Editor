@@ -5,14 +5,14 @@
   "source_files": [
     {
       "path": "research/catalyst-editor/AssetDataConnectionUI.cs",
-      "bytes": 3560,
-      "sha256": "67dc68a41c0c1ea87cd93cf95d18990850622a6805246232d0b0b7de5343d46e",
+      "bytes": 3702,
+      "sha256": "4a52190618fbdada9019c824719832fa78fdb410b248c12708cbc95aa32365df",
       "category": "desktop editor and offline checks"
     },
     {
       "path": "research/catalyst-editor/AssetDataPanel.cs",
-      "bytes": 21013,
-      "sha256": "57d3165fbcf44a3e388445eca6f4b443d02cfed101bd47402f0f1f8ef68d8224",
+      "bytes": 21166,
+      "sha256": "b9027a3f37f0a35dd8de8705df7f5f704ce3f3a46f96a908b8b0774d577d4c3a",
       "category": "desktop editor and offline checks"
     },
     {
@@ -65,8 +65,8 @@
     },
     {
       "path": "research/catalyst-editor/AssetMidiExchange.cs",
-      "bytes": 6764,
-      "sha256": "a09a95b91366d9de96cf82af56b849befcc45a9f993765c98bae7b4ac66d2551",
+      "bytes": 6784,
+      "sha256": "4ee71aff5ca45bba808c56d4acb504c803aa4653f579e4ac33ccfff756602e84",
       "category": "desktop editor and offline checks"
     },
     {
@@ -101,14 +101,14 @@
     },
     {
       "path": "research/catalyst-editor/AssetTransfer.cs",
-      "bytes": 16827,
-      "sha256": "cc98c0bf4eb7d409a52cf08cee0bb32407ed9d9a1b7e41c232ed67b2a5dbe9a9",
+      "bytes": 16639,
+      "sha256": "93cd1ce32ef5d95f1af26dd36d21a4c27366c4e20f482647f7d6f9e60fad325c",
       "category": "desktop editor and offline checks"
     },
     {
       "path": "research/catalyst-editor/AssetWire.cs",
-      "bytes": 3963,
-      "sha256": "b2cfb41bdec16f3a7bb20fc55118bfaf6e86beca0ae54af2ad64a239fee7e9d4",
+      "bytes": 4893,
+      "sha256": "c40a051ec83c045921d44b3032cf0a5f9a176cd3294a089745e0660b8fe4c1ec",
       "category": "desktop editor and offline checks"
     },
     {
@@ -119,14 +119,14 @@
     },
     {
       "path": "research/catalyst-editor/Backend.cs",
-      "bytes": 21938,
-      "sha256": "90af71bf7c4601f47023b989d0872344b5920cdb8ee63fc316073e0583487f61",
+      "bytes": 22001,
+      "sha256": "88deb2f94c2dc0da6c2b0a41de6fbf2dd8d102dff33142c20255a98679b24f65",
       "category": "desktop editor and offline checks"
     },
     {
       "path": "research/catalyst-editor/BackendCFControls.cs",
-      "bytes": 9327,
-      "sha256": "d70f049261bd12d49a5440cc25470cfec7e4cbab2737e9ce6c96c6933c35199b",
+      "bytes": 9642,
+      "sha256": "fb340e8a310ed2731eab93f86bd1f003b10b0206ec47596852024a71dd4274d2",
       "category": "desktop editor and offline checks"
     },
     {
@@ -143,14 +143,14 @@
     },
     {
       "path": "research/catalyst-editor/CFInstallChecks.cs",
-      "bytes": 8933,
-      "sha256": "b7b8cb049be725f219b22d697fea42b5489f34ac36d193e273aea722d77948f6",
+      "bytes": 13504,
+      "sha256": "9dbd879e85cc9a0c8d9ab2c7d7d6ed302dba2faf0068ba0128ffa5509e04704c",
       "category": "desktop editor and offline checks"
     },
     {
       "path": "research/catalyst-editor/CFInstallCoordinator.cs",
-      "bytes": 11890,
-      "sha256": "6cb35b47694a778754478c0e4a75b8805698c028faccd978079d24cca9cd669e",
+      "bytes": 12912,
+      "sha256": "0a8ca777e28fadd7c4f5f420a64771b7fcdd2e62c75e7ed36abfc54a45719049",
       "category": "desktop editor and offline checks"
     },
     {
@@ -162,8 +162,8 @@
     {
       "path": "research/catalyst-editor/CFPackageBuilder.cs",
       "bytes": 13349,
-      "sha256": "92f5daa50be7d426be650ab1d55fcb68a5f312a5027bfec14cfd2497dc66047c",
-      "category": "exact r103 package builder"
+      "sha256": "3a334c1c999fa253d398524294e280e0031602a0e6e91279ae868d6c8d350cda",
+      "category": "exact corrected control-owner package builder"
     },
     {
       "path": "research/catalyst-editor/CFPackageChecks.cs",
@@ -175,6 +175,18 @@
       "path": "research/catalyst-editor/CFPreparedPackage.cs",
       "bytes": 1364,
       "sha256": "f7abec7177631d8cccb4c2a07de73f0046550770f0f05cc31ef32eb0deab1fc9",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/CFUpgradeBackup.cs",
+      "bytes": 5755,
+      "sha256": "6094c937cdaf848dd5d15f75d33c371d7e00ac5e4e8860d54ebbf97e1903a290",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/CapabilityChecks.cs",
+      "bytes": 6554,
+      "sha256": "41dc9ece2234dd22b1617cb633f1bde66819402c2026bf8dbdb720ffdf75a54c",
       "category": "desktop editor and offline checks"
     },
     {
@@ -191,20 +203,20 @@
     },
     {
       "path": "research/catalyst-editor/ConnectionChecks.cs",
-      "bytes": 4710,
-      "sha256": "599b10acf188152c7027e46960514463e90eeb7a5e61d821e878e1617623e929",
+      "bytes": 4971,
+      "sha256": "35c83f313cd4fd0027f74918c5279d50b1c6ebf738bd38cdc6a644dacd3ea02f",
       "category": "desktop editor and offline checks"
     },
     {
       "path": "research/catalyst-editor/ConnectionFlow.cs",
-      "bytes": 2055,
-      "sha256": "a5e332934b02fcd0ae7d3627120277cdb24a346ffd2ec93654be775a2d8e0a9e",
+      "bytes": 2220,
+      "sha256": "42fc766dc9cc1da380cab4ab22321381dc9b60d975348be398954ae42d1ae1f8",
       "category": "desktop editor and offline checks"
     },
     {
       "path": "research/catalyst-editor/DarkLogBox.cs",
-      "bytes": 5338,
-      "sha256": "5f029f14800b110528e795c67a3ffb9215542ae0f452a5b99f40b2091d150be0",
+      "bytes": 5403,
+      "sha256": "95aa65fa516bf822ece16a9792243d8fad8ecd033121ddaca62b4ba92ef1873b",
       "category": "desktop editor and offline checks"
     },
     {
@@ -239,8 +251,8 @@
     },
     {
       "path": "research/catalyst-editor/EditorForm.cs",
-      "bytes": 28967,
-      "sha256": "75ab1eef6c9b93aae7fb60404bbecc0c281e2b098dd37c4ec084ee617ae07e9c",
+      "bytes": 29774,
+      "sha256": "d55b8c16a8e78337ab0c2931b919aa8301ba5e001898fb14dfe84bcd61a6e194",
       "category": "desktop editor and offline checks"
     },
     {
@@ -269,14 +281,14 @@
     },
     {
       "path": "research/catalyst-editor/FirmwareAccess.cs",
-      "bytes": 3460,
-      "sha256": "74ac7cc3a8cb2548c81ff7d9bb56842966a0daf7d17d2212d5b7cc0ecea9ec81",
+      "bytes": 4730,
+      "sha256": "58e7be0f057f967c9b3e7b8ab32614649f161da1f50d9a44181719326148cb45",
       "category": "desktop editor and offline checks"
     },
     {
       "path": "research/catalyst-editor/FirmwareAccessChecks.cs",
-      "bytes": 4871,
-      "sha256": "6b87ead8c676fe5988696c58e573f611f3b99ead4ed1cc516dd9e74f985a52a7",
+      "bytes": 12463,
+      "sha256": "70bebe61dee9ff1a12b8568060092641d7ba0511b79fbdbfc7e1c343e49da0bc",
       "category": "desktop editor and offline checks"
     },
     {
@@ -287,14 +299,14 @@
     },
     {
       "path": "research/catalyst-editor/FirmwareIdentifier.cs",
-      "bytes": 1008,
-      "sha256": "e791912ca5d39cd739a5e140dc28db9b45b0a31709f1692f1f84b551557b135b",
+      "bytes": 1177,
+      "sha256": "a524be6eb12a8df4bc891e6402c0455716cac9a0db7a7a545e343228f688e7ae",
       "category": "desktop editor and offline checks"
     },
     {
       "path": "research/catalyst-editor/FirmwareModes.cs",
-      "bytes": 2888,
-      "sha256": "099e2cc30abc1609ecce1918c815a14bcd9c28be72f62b3b5536eee351b38543",
+      "bytes": 3357,
+      "sha256": "f2fd100f251da110779ae0569aaf59b4b3796ef302c727fc4ea7ab4b447426cf",
       "category": "desktop editor and offline checks"
     },
     {
@@ -365,8 +377,8 @@
     },
     {
       "path": "research/catalyst-editor/MidiExchangeChecks.cs",
-      "bytes": 15985,
-      "sha256": "c59e6f77d052598aef5e1fb2deb9fc0a7c59e1b6d307c54366b47ca35a2f7f11",
+      "bytes": 16239,
+      "sha256": "0484a61d5341f47371f42cd19aee9392d52bd3fd85c07ab3784fcbf5af805ca5",
       "category": "desktop editor and offline checks"
     },
     {
@@ -389,8 +401,8 @@
     },
     {
       "path": "research/catalyst-editor/NativePreampChecks.cs",
-      "bytes": 12574,
-      "sha256": "a2226dcbf102bca68fc14d58a30c893c24cd9b8f438bbc73b355c34e9c0cd455",
+      "bytes": 12620,
+      "sha256": "6a9d71ea6f8020dc557cf16566116a0b3cacce9916347c8025d9a2be25a9fd4b",
       "category": "desktop editor and offline checks"
     },
     {
@@ -419,8 +431,8 @@
     },
     {
       "path": "research/catalyst-editor/PreampClient.cs",
-      "bytes": 10657,
-      "sha256": "2d6706db2b2791f3f289333c3faa2f9d1e98c62828455caba213144bbdd450fa",
+      "bytes": 10772,
+      "sha256": "7a3721bbc43fb87b946560a457022e5e9ae93e96b85e0f8cdbac37345f483336",
       "category": "desktop editor and offline checks"
     },
     {
@@ -442,6 +454,18 @@
       "category": "desktop editor and offline checks"
     },
     {
+      "path": "research/catalyst-editor/PresetSelection.cs",
+      "bytes": 2614,
+      "sha256": "c49a63dd983abd5cdd9edf5ab6485fe7e1e9ecddf38d0d782a5ed4588865f046",
+      "category": "desktop editor and offline checks"
+    },
+    {
+      "path": "research/catalyst-editor/PresetSelectionChecks.cs",
+      "bytes": 4417,
+      "sha256": "e5358e8b197c0b0e91a66054ad7b342fb6f31d4b63dbbab67fdcf8da06f0d4ef",
+      "category": "desktop editor and offline checks"
+    },
+    {
       "path": "research/catalyst-editor/PresetStore.cs",
       "bytes": 3410,
       "sha256": "ddd50738cdddae1f99acb0df8e821f85d97579eb8ba784767e107274f84370aa",
@@ -449,14 +473,14 @@
     },
     {
       "path": "research/catalyst-editor/Program.cs",
-      "bytes": 8371,
-      "sha256": "78990b227ac5d92636e302663e8fca90d8043bfa16d294bd675bb24c08b58e53",
+      "bytes": 8666,
+      "sha256": "e1cbea0cba9f26627ae376fd08da3cd40467f92fbd9be7c427402763fe8ef731",
       "category": "desktop editor and offline checks"
     },
     {
       "path": "research/catalyst-editor/ReceiverDiagnostic.cs",
-      "bytes": 2917,
-      "sha256": "b6cd5f6fd56f287e5572e115dda2cc064167d70cf36a500b380504e47a6fdcbc",
+      "bytes": 3140,
+      "sha256": "1eba37b06be6066a78b64def2d642fe2375b837edee8adf4f6d22e5b98232fcc",
       "category": "desktop editor and offline checks"
     },
     {
@@ -485,8 +509,8 @@
     },
     {
       "path": "research/catalyst-editor/Startup.cs",
-      "bytes": 7684,
-      "sha256": "94f30d3a50ab264d2a4c3305503256218e3e35f008417683134264071b22c2ea",
+      "bytes": 7929,
+      "sha256": "1713987bf91921e68f9da551aa0337da561341530880f2f0add9c906d105d09b",
       "category": "desktop editor and offline checks"
     },
     {
@@ -971,8 +995,8 @@
     },
     {
       "path": "research/catalyst-editor/resources/ui-en.tsv",
-      "bytes": 10762,
-      "sha256": "78e09232c89857c6e8f0f6bdc8e293ec0584aed4ab8be0c649b3337904463c73",
+      "bytes": 13033,
+      "sha256": "81889cd1bfd3d3ee8d7d321cf76e619e3ae48d119d41cbc876cf8b5bcafd4acd",
       "category": "source resource"
     },
     {
@@ -1148,37 +1172,37 @@
       "path": "research/catalyst-nam/all-amps-lab/actor-build/actor.ld",
       "bytes": 225,
       "sha256": "47eb4c0c58b52ac4dbea7a2c8862f152d9fbc2bfe8320ca8f501d5c5bae6568e",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/actor-build/asset_actor_recovery.c",
       "bytes": 12516,
       "sha256": "6ef61a573d0834df640d2553e226e2ccd15c1ea43a7e1ec4ee88ac98c0504635",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/actor-build/coordinator_binding.c",
       "bytes": 927,
       "sha256": "13ccd4f2ca48fbfc45bef9555d44dd8d8f827ceb28ff0caebcc9b178e66813c7",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/actor-build/ir_handoff_leased.c",
       "bytes": 4896,
       "sha256": "6fcc0b834160f08ed964c82553ebb2ea0d85084e6cb1d76de78013d1239f1a02",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/actor-build/owner_addresses.h",
       "bytes": 256,
       "sha256": "155ff403978075325ca32d55be96a82ea04d96966ed4da8c4b8f1272e83ba6e1",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/actor-build/preamp_binding.c",
       "bytes": 2584,
       "sha256": "7c874b913148702099631b48b0637e34bad76a081af4bad668724dc96bcb07d3",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/build/OEM-controls.json",
@@ -1190,67 +1214,235 @@
       "path": "research/catalyst-nam/all-amps-lab/build/adapter.c",
       "bytes": 22549,
       "sha256": "c3cf1be25365cad2aee2fc1dee8ccdb6804278c82bf90cd365ebb26d33f52299",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/build/lab.ld",
       "bytes": 206,
       "sha256": "4075c5a0c7a19602dfe7fa257360f346f21d6b4fc5fc53db8d6d1138ccfbaefc",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/build/trial_tables.h",
       "bytes": 13410,
       "sha256": "6dd01a79955e0501433c17b7bf5df637f97e25a7ebb9519c3b2cc8c25bd8e5e1",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/build/trial_target.h",
       "bytes": 1172,
       "sha256": "a8e4dff0bf62d288ea361f4dce0223732778a9e5d2fd438eedba4063482a57ad",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/build_actor_variant.py",
       "bytes": 1546,
       "sha256": "9d1ec63aa0278b6d226f36f3a64a6dfc001cdf8cb46e8f7a2a2cb227d52c9349",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/build_all_amps.py",
       "bytes": 9157,
       "sha256": "1a5e0875f495fc163b4aca0d2afc877aa9f5da9ba0f8bbee63e240dd1b333606",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/build_control_actor.py",
+      "bytes": 3596,
+      "sha256": "cc7422f86d3e5d24f517f10b2cf782900a48cbe2f0b9386e29438e306633a01a",
+      "category": "routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/build_control_app.py",
+      "bytes": 2565,
+      "sha256": "80903aa38e0d2335c597bd332ee7112f473873cf28ee0e2e34ae9750f2a85abf",
+      "category": "routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/build_control_boot.py",
+      "bytes": 4236,
+      "sha256": "26a51c64e1520c3de2b02dafd2eaeeb3869c85c3bf314c46929959433ed4f658",
+      "category": "routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/build_control_owner.py",
+      "bytes": 2055,
+      "sha256": "00b249869a3cdc874a426a48be60ff296dc5619f52bcf4a45d284ab10ebc13e2",
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/build_trial_app.py",
       "bytes": 2351,
       "sha256": "83b7a2586428312759ee868b87c7dff0c2988120008920519992d56cdd139db9",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/FIX.md",
+      "bytes": 4776,
+      "sha256": "015ceeb5c6aea1f26c4c9a0dddb46449a6232ad66bf19d97481f31063f4c0331",
+      "category": "selected native ownership contract and offline limits"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/actor-build/actor.ld",
+      "bytes": 225,
+      "sha256": "47eb4c0c58b52ac4dbea7a2c8862f152d9fbc2bfe8320ca8f501d5c5bae6568e",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/actor-build/asset_actor_recovery.c",
+      "bytes": 12706,
+      "sha256": "5deaef5054f973cb4c0ce897ed8af9eb108a467458e8ae61a76073f61db595fb",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/actor-build/coordinator_binding.c",
+      "bytes": 927,
+      "sha256": "13ccd4f2ca48fbfc45bef9555d44dd8d8f827ceb28ff0caebcc9b178e66813c7",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/actor-build/ir_handoff_leased.c",
+      "bytes": 4896,
+      "sha256": "6fcc0b834160f08ed964c82553ebb2ea0d85084e6cb1d76de78013d1239f1a02",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/actor-build/owner_addresses.h",
+      "bytes": 256,
+      "sha256": "b2b815ccfc430196d871dd1c94fa197e068a22ed4f3df60298bd183d64da62f0",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/actor-build/preamp_binding.c",
+      "bytes": 2584,
+      "sha256": "7c874b913148702099631b48b0637e34bad76a081af4bad668724dc96bcb07d3",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/actor-build/stock_binding.h",
+      "bytes": 407,
+      "sha256": "81c2f3121b1009c4ceb6cc59435111508b685d2fb9eb7f820bd7adc61f863cae",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/build/OEM-controls.json",
+      "bytes": 6430,
+      "sha256": "75f46139e31b523ae371b77859ab72b42a2417209a8ab52a36921599d3b62260",
+      "category": "selected generated original-model control mapping"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/build/adapter.c",
+      "bytes": 22357,
+      "sha256": "ca0c65246a04c5a769590bb35e6c68f31e4c20653753b68d929e327d5f5c1d62",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/build/lab.ld",
+      "bytes": 206,
+      "sha256": "4075c5a0c7a19602dfe7fa257360f346f21d6b4fc5fc53db8d6d1138ccfbaefc",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/build/trial_tables.h",
+      "bytes": 13410,
+      "sha256": "6dd01a79955e0501433c17b7bf5df637f97e25a7ebb9519c3b2cc8c25bd8e5e1",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/build/trial_target.h",
+      "bytes": 1172,
+      "sha256": "a8e4dff0bf62d288ea361f4dce0223732778a9e5d2fd438eedba4063482a57ad",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/control_loader.S",
+      "bytes": 360,
+      "sha256": "0403ed67fe543b66d5bcfc87e4a804230b20939d15c22773e154dc666cdb602d",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/node_thunk.S",
+      "bytes": 601,
+      "sha256": "700ec732ed05b7a7480b19d31cf6715f21ceaef14d2a0ea411cc22ebcbca50b3",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/stock_control.c",
+      "bytes": 11435,
+      "sha256": "87558bcedb6ca3ccfb3194a2dd2dcfc5ec263aab227a9eb666bbfb98c049856d",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/thunk-build/node_thunk.S",
+      "bytes": 725,
+      "sha256": "9e3d0095872ea4c52c37129c3a6257915fa78ba7513b4adad54a1ad4e5bdc5c7",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/control-owner-lab/thunk-build/thunk.ld",
+      "bytes": 147,
+      "sha256": "9ccf28446cc78e762838bfcb9dbc78f624cbc81f1d08f1b66368836c77e88264",
+      "category": "selected DSP-control-owner corresponding source"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/investigate_transitions.py",
+      "bytes": 4594,
+      "sha256": "eeb03165e5447c9f2d419b0b3456e6faa25ccd899d2cc943a4313f97aa248d3f",
+      "category": "routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/podgo-review/DSP_CONTROL_OWNER.md",
+      "bytes": 6414,
+      "sha256": "404c50c37f95eb38af850fdc4ea6d58692950667bb2acbd9b9287d5da941906c",
+      "category": "static native ABI provenance; no hardware report"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/podgo-review/dsp_owner_review.py",
+      "bytes": 6559,
+      "sha256": "f5c4aac784230677c82dbbb7875e5629796ab236fa841ae04e3240341479bdce",
+      "category": "static native ABI provenance; no hardware report"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/verify_all_amps.py",
       "bytes": 8802,
       "sha256": "93a938ca734dea91a1a973537bfb43ede506482fbb63946af87824cc1da76041",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/verify_boot_variant.py",
       "bytes": 1390,
       "sha256": "cc5d675b2350aaab3d0e33df28e5a55835407fd919bfff2d35896a8791722b25",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/verify_control_native.py",
+      "bytes": 17274,
+      "sha256": "2d6e33014ffe7dfa70be195d81755d2b02d657374e48bd9f77773e691d4ef50f",
+      "category": "routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/verify_control_owner.py",
+      "bytes": 1473,
+      "sha256": "72a0fe38a140c6d812198b0b38fa64f43a9b8e4dcbf8af80b6f617e570cf8b53",
+      "category": "routing preamps owner and offline tooling"
+    },
+    {
+      "path": "research/catalyst-nam/all-amps-lab/verify_control_variant.py",
+      "bytes": 4892,
+      "sha256": "5a2773bb2c4871f5fafa680bee5bb16cf2fb68d0bf83b05d9fe1d2d825404a8d",
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/verify_owner_variant.py",
       "bytes": 1332,
       "sha256": "e87ff2012da239c8d9cebf7e1cb5a4420499eeb74fabd2cc0021da5b545f9039",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/all-amps-lab/verify_variant.py",
       "bytes": 2651,
       "sha256": "3da28b62d9fb56386cbc331be6bc08ec8edd77a6c3c2867f9069e3de85683d33",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/app/ImporterChecks.cs",
@@ -1406,344 +1598,344 @@
       "path": "research/catalyst-nam/asset-lab/IdentityProbe.cs",
       "bytes": 1217,
       "sha256": "73678b170b05187cc73810d60c107d6147bdb6e429f208afaa08905b9d7b3dd7",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/PreampProbe.cs",
       "bytes": 3222,
       "sha256": "c0379b6f2882ef09a7655e7bff48486349a02c7c73badd0151b5b2d7c8408062",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/RecoveryProbe.cs",
       "bytes": 3577,
       "sha256": "e2a1332b8594efdb080db586a89a0dd5838d816780547c58d6ec2b6f5502290b",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/TransferProbe.cs",
       "bytes": 4874,
       "sha256": "43c08898fa55d85eb401ea477a969fa4c234e7061c77eb4294d485ce3fe99003",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/WireProbe.cs",
       "bytes": 1366,
       "sha256": "8e50490c3df41b9fc459fe95056fa96fc003bda46099d741136eb65586935711",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_actor.c",
       "bytes": 7236,
       "sha256": "81a72f664e58a411e10d903d70b1210b9be13e47bf441d727f377b7f003f9c6e",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_coordinator.c",
       "bytes": 6043,
       "sha256": "9189ea0f6bc67f5fd2982f047240bdf4bc2b8e52e3b849f30a7a4a901bf809b6",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_coordinator.h",
       "bytes": 1384,
       "sha256": "0d66ce6146104e40fd78095cb4579ac1b90c6d5e1832d64d11593a9dd1ec90f1",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_identity.c",
       "bytes": 978,
       "sha256": "05270964c4b9e796ec562c75ea73aeeb428b9d1c4d62e8614e8c4b7d715d763c",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_identity.h",
       "bytes": 593,
       "sha256": "9946342b8fe679105daa1e35c4bcd17c1aea80610b33297854f03a52dcc3b631",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_load.c",
       "bytes": 1623,
       "sha256": "39d7e04bee3a58c9b4815743613fa76a59641b3c7723c0285d97363e7f781d30",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_load.h",
       "bytes": 739,
       "sha256": "2a376f6360667a35c732fdd8ef955b2857546ddb7d6b8d643f48ed2807c8f141",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_recover.c",
       "bytes": 995,
       "sha256": "bad8f95841a84b1ac216f72d676bd5cb26fe135b1ee817aad246532f5f9b9055",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_recover.h",
       "bytes": 620,
       "sha256": "094a63f8087905b5c9526bc67cb387d2967f67b51a98137751f3b51c6be6740a",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_recover_wire.c",
       "bytes": 1873,
       "sha256": "b855dccaffadb28952e3aee61f421d72a8201f0eba9362c5a92ec74f25512ac1",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_recover_wire.h",
       "bytes": 549,
       "sha256": "da71518765df7f3d6c914d031dd8cce9ce5e0ab76b264d622008292553c52246",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_seed.c",
       "bytes": 2736,
       "sha256": "9124dd2cb5b96267d73bcdb6aff7bd5ceb7ede6885e528bcbb306257c0a42545",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_seed.h",
       "bytes": 1102,
       "sha256": "7e05ac52ae8b4b58d9adbfa32cfeceefce894738fc5689f455041ca943211826",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_stage.c",
       "bytes": 3017,
       "sha256": "75c9b794298911b5e1922e187a71c705e14df681bdf6bcebf6ee2eb6e1710db7",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_stage.h",
       "bytes": 851,
       "sha256": "e333053a5c4e17c8f59be517884febab5609fde59db0f9e4f2b5579fe264cefa",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_store.c",
       "bytes": 9722,
       "sha256": "a7a1ab292091a0e42793744af9b45bad6d4c8b5d96f9d78bb70a6a32b44e721d",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_store.h",
       "bytes": 2207,
       "sha256": "18a4964a0ab97e044dba51e09a35ce600ac69de8eaf73ca86d436cb288baf057",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_wire.c",
       "bytes": 5692,
       "sha256": "509b4620f6a9feae2143996fe5a9003084bd648d79203a46134f14f3c58c8e0f",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/asset_wire.h",
       "bytes": 1126,
       "sha256": "3e92c93512397896d903f61322ffc5002212f74d1bbb7e233e7415cf7e45b97f",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/build_actor.py",
       "bytes": 2720,
       "sha256": "f153157998e4692acd8d916645db65817d447503f959b0e8afbd1152bd4542c5",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/build_recovery_actor.py",
       "bytes": 19294,
       "sha256": "87d401a90d5f5935c4d809b488470a4207e582bf4f5855e361ad40127240dec5",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/derive_leased_ir.py",
       "bytes": 2376,
       "sha256": "4aaae324dbe5349aedbe65662bee2f7e12a15ad0c8dacecce4feb981a990da53",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/inspect_board_memory.py",
       "bytes": 3562,
       "sha256": "e5ac6ed3a676ea0efd4ec7ee2ff316fa31c09ae3f6d5c539e454ea153c26d8ab",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/inspect_heap.py",
       "bytes": 2035,
       "sha256": "5145e782a8200d97861ddc9a6b9936b66741e7d051b9ed0d9cdcaafc60989534",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/inspect_memory.py",
       "bytes": 2029,
       "sha256": "87a5f73d2e4224beaca58161a44ab1d68ac17df4c077b79e4a8ebef219970e3d",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/inspect_mpu.py",
       "bytes": 3928,
       "sha256": "d2e99e2863d0917f7bb350dabb5cbba1df7c0eb09d53b5c3753b145586864101",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/inspect_storage.py",
       "bytes": 2650,
       "sha256": "9d8c40f1e524c2b61544da365e5ceb950a09e484d90ecfaf39f1fcd55a054471",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/ir_handoff.c",
       "bytes": 3442,
       "sha256": "45e94e6e3bb1c00c13e06082033b32a1f6d00519abe5a2145960a417b0f91c1d",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/ir_handoff.h",
       "bytes": 603,
       "sha256": "33edbaebb42c005cbe5b6ca93d66d4cb7cf68a62d487f948b9e061390b2d0eca",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/ir_handoff_leased.h",
       "bytes": 579,
       "sha256": "ed27cde4c1aae7badd86803c622815f5d2d6c8a4e65117f1983ac83368ea73f2",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/owner_loop.c",
       "bytes": 10845,
       "sha256": "7245861db0c21cf354ba843635f86e05381a6a35df89deee0232621f2985a769",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/plan_asset_memory.py",
       "bytes": 2794,
       "sha256": "bee40d75529a9bd179dde0b4d3dd93be17a4b05c10500dcd2d325a2ce48a360f",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/preamp_owner.c",
       "bytes": 7289,
       "sha256": "7f2808e2cbfb2c6ae3b0f7b151ae40a98bfff17f63a62e16e4a7a06ad83788e5",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/receive_wrapper.S",
       "bytes": 487,
       "sha256": "70926595037ea6aeef1f4c27f5f062d7987fbed9e16e0e5ff7c95d79cd76a1e9",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_actor.py",
       "bytes": 13772,
       "sha256": "410d322be94868135e9f6bfb0646b6ba0c4f4f3cc79aa78f16609bbc6a742720",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_boot_layout.py",
       "bytes": 10470,
       "sha256": "884db41265644076afa808b5d5b4bdfd92a88a735a4195f46ea3bd4c6f4fa02c",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_coordinator.py",
       "bytes": 15111,
       "sha256": "6e9e4cc5264fafde9973aa5a50aa394d75cdec8ce3fecc9f60d04edb8faaf4b6",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_identity.py",
       "bytes": 6665,
       "sha256": "4906633e9dffe472a630430ca53967501d9288087b31143bb3f6162ddca04c14",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_ir_handoff.py",
       "bytes": 7605,
       "sha256": "e85c0a3a675b1dcbd343f72163aa1683a61ae2d708bf4d5320cfaeeb5c4141f4",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_load.py",
       "bytes": 6239,
       "sha256": "56bfa6af3ee26a967eab4ccab07cd30a5dce7c5f35b4dfce66ff35d4ef3890a3",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_native_fs.py",
       "bytes": 9313,
       "sha256": "17f35a801064fa31a471cda3cc6b69e367f2f10016080e5ad9e59c57415c2e82",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_owner_loop.py",
       "bytes": 26287,
       "sha256": "e31f1accf0d2471819b9f7ef69acd4c36b369864a77acee13f2a6de934dd2453",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_pipeline.py",
       "bytes": 6771,
       "sha256": "1a7a2b8d4515962d2e781204e2b1270970864b7098cacacb3bb92be0145de96d",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_recover.py",
       "bytes": 6609,
       "sha256": "31bf751230fe4c2ea7553f95936fae4493a62925ee418499d4f54d8326b36df0",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_recovery_actor.py",
       "bytes": 8545,
       "sha256": "e5b24a8c13eddfedf8d0b148bbe4b320b99d66926dc99399b6d69111546172ce",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_recovery_wire.py",
       "bytes": 9371,
       "sha256": "dabe49110df4f0f0ee60b505d23e1e47dc2235d62e9ed24e779b63ce0b173c04",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_seed.py",
       "bytes": 6727,
       "sha256": "ef666fa317c73257485faf9ba19d0f6b21153bf6a7d3ea45069a49b26b86db13",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_seeded_actor.py",
       "bytes": 5648,
       "sha256": "59149fbd5679a3493d34aaf5b1dd09350e3283655742b6e40f18f15b3bd161b5",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_stage.py",
       "bytes": 6036,
       "sha256": "9072d4ef3f0383f97a8a7405a98e4164b3501f5d173efb0df476e03d1154cb34",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_store.py",
       "bytes": 14769,
       "sha256": "cc1295413a01dbf4f6f27b75fe781f4ae1f04a402409fe28fee6ca73d90cf88d",
-      "category": "r103 routing preamps owner and offline tooling",
+      "category": "routing preamps owner and offline tooling",
       "snapshot_adjustment": "Test-fixture paths only: environment variables or synthetic fixture locations; runtime algorithm unchanged."
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_transfer.py",
       "bytes": 9990,
       "sha256": "a9c1862bd7d1bee9a32efe12f6fae6c0b23fdddfd097048a5f4f5655e3d39d62",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/asset-lab/verify_wire.py",
       "bytes": 10957,
       "sha256": "75ce9397b9c75a50b3f66e83028b3fe87cec25945660b1d11862652cef2450ae",
-      "category": "r103 routing preamps owner and offline tooling",
+      "category": "routing preamps owner and offline tooling",
       "snapshot_adjustment": "Test-fixture paths only: environment variables or synthetic fixture locations; runtime algorithm unchanged."
     },
     {
@@ -1756,97 +1948,97 @@
       "path": "research/catalyst-nam/boost-lab/characterize_r94.py",
       "bytes": 7846,
       "sha256": "efafd26b14d83b659ec5b88856dedc11322c2c070f95ee755d45830c36eeb5e0",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/inspect_podgo_reference.py",
       "bytes": 3612,
       "sha256": "6239b621100e632e4ab43cec4186f0b8274a097d5bb9c858ef8a1229c145e664",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/lab.ld",
       "bytes": 220,
       "sha256": "547c4222289afc3fd6bfc8d1062f4d3551bad088f764acca076ea050e136839c",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/preamp.c",
       "bytes": 4996,
       "sha256": "d3e37b7cbd5b6a3d5f4236da0c640d4abb73a17074b429aa0430473c463b4830",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/preamp.h",
       "bytes": 600,
       "sha256": "714f7857c59b3e525d7b49381827842fa99e201ab8fa2924f7fcfaa83f325ba3",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/preset_job.c",
       "bytes": 3287,
       "sha256": "e27571fd74107757a7755e9678d2e4ff6fbc38ecab56d9d42b9d07722c1fc500",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/preset_job.h",
       "bytes": 1180,
       "sha256": "fe39f5ea44099fe222f0c9ad28fd72fb12e6a0029965657de5cadffd4c623d1f",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/preset_store.c",
       "bytes": 7395,
       "sha256": "ac57561acfd12a430fd6e6b7358f8357d088adb8c3a7e517c1fe8c2ae34a79b0",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/preset_store.h",
       "bytes": 1935,
       "sha256": "580215fe95199baeb1e46ef79eae58e815ce90f742362802ca01f2b0d9ef1cf5",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/tonal-v2/lab.ld",
       "bytes": 220,
       "sha256": "547c4222289afc3fd6bfc8d1062f4d3551bad088f764acca076ea050e136839c",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/tonal-v2/preamp.c",
       "bytes": 7795,
       "sha256": "a38f96d68e3f2938dd0b2821d34771ef96e16938b69102bd7c00fcc4ae10bb99",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/tonal-v2/preamp.h",
       "bytes": 600,
       "sha256": "714f7857c59b3e525d7b49381827842fa99e201ab8fa2924f7fcfaa83f325ba3",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/tonal-v2/verify.py",
       "bytes": 12764,
       "sha256": "cb1dd89f0a6c6be55d31df83f774affab5353ccd8cc290d98c4f34ad14d65af0",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/verify_lab.py",
       "bytes": 17034,
       "sha256": "14f87924721989d7edee0b60656431ce9acb4751aef75f5de757c1463d829db5",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/verify_optimization.py",
       "bytes": 2535,
       "sha256": "86ffdfe5bbe8b4b7a42fbd6cef738caa25b643d8dfb603dc54a29ced75884f7a",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/boost-lab/verify_preset_store.py",
       "bytes": 7152,
       "sha256": "4c687c44a4b288adfabdfd60ef0e006abac3194d40246f8ca5975a3e3ccde729",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/build-fast/selected-block-fma/kernel-embedded.c",
@@ -1858,7 +2050,7 @@
       "path": "research/catalyst-nam/build-fast/span-max-r94/kernel-embedded.c",
       "bytes": 4738,
       "sha256": "553ad81a25341c00febc1c1758d97f50ee969b9387bec97f7fd1a5fdb30e5836",
-      "category": "exact r103 audio translation unit"
+      "category": "selected optimized audio-kernel translation unit"
     },
     {
       "path": "research/catalyst-nam/build.py",
@@ -1876,55 +2068,55 @@
       "path": "research/catalyst-nam/dual-lab/build_lab.py",
       "bytes": 15894,
       "sha256": "380e9d22260699dcdf9e00058619dc30f4f9e981bab8c149c3338913c3b12828",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/dual-lab/lease-build/adapter.c",
       "bytes": 19841,
       "sha256": "79a7cb30734e0dffbd9d6fafef55cfe9bb3768735f6e1701cee47d374a56d584",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/dual-lab/lease-build/lab.ld",
       "bytes": 190,
       "sha256": "0112c010ad8618d0c97d20860080f68d92c531b041be489972baa4558de7a478",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/dual-lab/lease-build/trial_tables.h",
       "bytes": 13410,
       "sha256": "6dd01a79955e0501433c17b7bf5df637f97e25a7ebb9519c3b2cc8c25bd8e5e1",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/dual-lab/lease-build/trial_target.h",
       "bytes": 1172,
       "sha256": "a8e4dff0bf62d288ea361f4dce0223732778a9e5d2fd438eedba4063482a57ad",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/dual-lab/verify_lab.py",
       "bytes": 14035,
       "sha256": "ec5732f9a7e445538f34924a721addd87bcb43f53729d2c52b86f6ef5bbdd01f",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/dual-lab/verify_leases.py",
       "bytes": 4053,
       "sha256": "1a6289bff3fce15ac3f71a1b532f3baa136f0bddf2c45d3bcae6f98bdfbbea2b",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/dual-lab/verify_native.py",
       "bytes": 5651,
       "sha256": "3d1e34114bc0dad60f6d053c935f3417456509b2f4f44ea04fc7fd8af4bb8066",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/dual-lab/verify_native_controls.py",
       "bytes": 3858,
       "sha256": "2eabe4f78c61dfbe3e27e54a5c2f5c4f02b99c4a82f203f87bd23c8b1f03cdbf",
-      "category": "r103 routing preamps owner and offline tooling"
+      "category": "routing preamps owner and offline tooling"
     },
     {
       "path": "research/catalyst-nam/evidence/factory-amp-signatures.json",
@@ -2287,6 +2479,13 @@
     "research/catalyst-nam/asset-lab/verify_store.py": "Test-fixture paths only: environment variables or synthetic fixture locations; runtime algorithm unchanged.",
     "research/catalyst-nam/asset-lab/verify_wire.py": "Test-fixture paths only: environment variables or synthetic fixture locations; runtime algorithm unchanged.",
     "research/catalyst-nam/profile_span_kernel.py": "Test-fixture paths only: environment variables or synthetic fixture locations; runtime algorithm unchanged."
+  },
+  "selected_engine": {
+    "revision": "corrected DSP-control-owner engine (r105)",
+    "audio_elf_sha256": "a652621cc772759d5a0912cff1fd4d9c383410d4c3737f13a3e2a3bb98237c91",
+    "actor_elf_sha256": "329cb0dfb8164200040ccc8092a583e81c9eb4e63ca4e1850f4b988452080654",
+    "segment_sha256": "a4f5c1038787b91a2c0272d1f64cb6d55bfba3bc58d0b67bcba875aa9f7c5ff8",
+    "hash_scope": "Correspondence identifiers only, not hardware acceptance. ELF/segment binaries and private reports are excluded."
   },
   "omitted_dependencies": [
     "Manufacturer SDK/runtime DLLs and editor/update bundles",

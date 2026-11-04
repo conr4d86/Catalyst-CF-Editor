@@ -5,8 +5,22 @@ namespace CFEditor {
 sealed class AssetMessage {
  public uint Product,Session,Transaction,Number;public byte Opcode,Slot;public byte[] Data=new byte[0];
 }
+sealed class FirmwareUpgradeRequiredException:NotSupportedException {
+ public const string UpdateMessage="El Custom Firmware instalado necesita actualizarse. Abre «FIRMWARE CF» y pulsa «Reinstalar Custom Firmware».";
+ public FirmwareUpgradeRequiredException():base(UpdateMessage){}
+}
 static class AssetWire {
- public const int MaxPacket=329,MaxChunk=256;public const uint DataWrite=1,AudioActivate=2,RecoverReceiving=4,PreampControl=8,AllAmpPreamp=16;
+ public const int MaxPacket=329,MaxChunk=256;public const uint DataWrite=1,AudioActivate=2,RecoverReceiving=4,PreampControl=8,AllAmpPreamp=16,SafeControlOwner=32,KnownCapabilities=63;
+ // Identity identifies an edition; it does not prove the edition's control
+ // owner is safe. Older NAM-only owners remain compatible, but all-model
+ // preamp firmware must explicitly announce its corrected owner as well.
+ public static void ValidateCapabilities(uint flags){
+  if((flags&~KnownCapabilities)!=0)throw new InvalidDataException("Capacidades del firmware desconocidas");
+  if((flags&AllAmpPreamp)!=0){
+   if((flags&PreampControl)==0)throw new InvalidDataException("Capacidad de preamp incompleta");
+   if((flags&SafeControlOwner)==0)throw new FirmwareUpgradeRequiredException();
+  }
+ }
  static readonly byte[] Prefix={0xf0,0x7d,67,70,67,88,1};
  static uint U32(byte[] b,int p){return (uint)b[p]|((uint)b[p+1]<<8)|((uint)b[p+2]<<16)|((uint)b[p+3]<<24);}
  static void Put(byte[] b,int p,uint v){for(int i=0;i<4;i++)b[p+i]=(byte)(v>>(i*8));}

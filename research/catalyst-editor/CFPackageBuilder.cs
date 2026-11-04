@@ -5,7 +5,7 @@ namespace CFEditor {
 // and memory/IRQ/cache checks permit this exact code/template fingerprint.
 sealed class CFPackageBuilder {
  internal const string BaseHash="e80bba31906c0032b4b92f9d062c54879ea88fbabbf0a9d073dd1794d2a287a1";
- internal const string SegmentHash="4a81169b0cee9b8ed384936fad14161b8fd42169c5a5dcc317337d9dec15bf34";
+ internal const string SegmentHash="a4f5c1038787b91a2c0272d1f64cb6d55bfba3bc58d0b67bcba875aa9f7c5ff8";
  const uint App=0x60001000,Seed=0x601e3000,Limit=0x60200000;const int Manifest=1048;
  readonly CFContainerCodec.Container template;readonly byte[] neutral,header,other;readonly uint entry;
  sealed class Image {public uint Address;public byte[] Data;}

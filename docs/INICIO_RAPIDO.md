@@ -25,15 +25,20 @@ Abre **FIRMWARE CF** y pulsa su único botón **Instalar Custom Firmware**.
 Si ya tienes un CF reconocido, el botón se llama **Reinstalar Custom Firmware**.
 
 Incluye **NAM 1 y NAM 2 con la misma captura de prueba** y **tres IR de prueba**.
-La app verifica una copia de los doce presets antes de instalar. Deja el USB,
-la alimentación y la app conectados hasta que termine.
+En la primera instalación, la app crea y verifica una copia de los doce presets.
+Si la app indica que el CF instalado necesita actualizarse, reutiliza solo una copia anterior verificada de esa
+misma edición, sin recorrer otra vez sus presets. Si falta o no coincide, la
+actualización se detiene antes de transferir firmware. Conserva la carpeta completa
+de la instalación anterior. Deja el USB, la alimentación y la app conectados hasta
+que termine.
 
 Cuando lo indique, apaga y enciende normalmente, **sin pulsar botones**, y pulsa
 **Comprobar arranque**. Las pestañas del editor se desbloquean cuando la app
 confirma un CF compatible.
 
-Reinstalar vuelve a poner los cinco ejemplos. Conserva tus archivos NAM e IR
-originales para volver a cargarlos después. Un preset no sustituye esos archivos.
+Reinstalar crea una edición nueva y deja activos los cinco ejemplos. Los recursos
+anteriores quedan archivados, sin migrarse automáticamente. Conserva tus archivos
+NAM e IR originales para volver a cargarlos después. Un preset no sustituye esos archivos.
 
 ## 3. Cambia un NAM o IR sin reinstalar
 

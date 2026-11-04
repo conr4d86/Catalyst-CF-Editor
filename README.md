@@ -39,10 +39,16 @@ exposing the amplifier's private device identifier.
 Close other Line 6 managers, connect by USB and wait for sync. Open **FIRMWARE CF**
 and press **Install Custom Firmware**. Demo files are included; no file selection is
 needed. The app verifies a twelve-preset backup first. Keep power and USB connected
-until completion, then restart normally when prompted and click **Comprobar arranque**
-(check startup).
-**Reinstall Custom Firmware** replaces all five positions with the included examples;
-keep your original NAM and IR files before reinstalling.
+until completion, then restart normally when prompted and click **Verify startup**.
+**Reinstall Custom Firmware** creates a new edition and activates all five included
+examples. Previous resources remain archived, without automatic migration; keep
+your original NAM and IR files to upload them again.
+
+If the corrected engine included here is already installed, this host update only
+requires replacing the EXE. If the app reports that an earlier CF needs an update,
+its upgrade path reuses a verified local preset backup for that exact installed
+edition, without repeatedly selecting presets. A missing or mismatched backup
+stops that path before firmware transfer. See the [FAQ](docs/FAQ.md#english).
 
 Initial installation is enabled for **Catalyst 60/CX60** in this revision.
 100/200 handling exists in code, but these models have not been physically tested;
@@ -75,10 +81,14 @@ Direct Out and USB**, without replacing the physical speaker.
 
 ## Validation and recovery
 
-An earlier engine has physical observations on one 60/CX60 with official 2.02 as its
-base. This version adds preamps for all twelve models and both NAM positions,
-checked in emulation. The complete hardware test matrix for this engine revision
-is not documented; see the [validation report](docs/VALIDACION.md).
+The corrected CF has been transferred to one development 60/CX60; the user confirmed
+normal startup and sound, and read-only diagnostics progressed without a recorded
+fault. The r106 host passed thirteen local test groups without SDK/USB access.
+The native control-owner regression covers twelve models in emulation.
+The user confirmed physical CH A/B changes with all apps closed and continuing
+audio. GUI A → B → A switching was also confirmed with working audio and controls.
+Preamp-save/cold-boot persistence and the full hardware matrix remain pending;
+see the [validation report](docs/VALIDACION.md).
 No zero-failure or physical 100/200 compatibility claim is made.
 
 Read [Usage](docs/USO.md), [Recovery](docs/RECUPERACION.md) and

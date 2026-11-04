@@ -11,6 +11,8 @@ static class Program {
   Application.EnableVisualStyles();Application.SetCompatibleTextRenderingDefault(false);Application.SetUnhandledExceptionMode(UnhandledExceptionMode.ThrowException);
   if(args.Length>0&&args[0]=="--self-test")return EditorTests.Run(args.Length>1?args[1]:"self-test.json");
 #if DEVELOPMENT
+  if(args.Length==2&&args[0]=="--capability-test")return CapabilityChecks.Run(args[1]);
+  if(args.Length==2&&args[0]=="--preset-selection-test")return PresetSelectionChecks.Run(args[1]);
   if(args.Length==2&&args[0]=="--firmware-access-test")return FirmwareAccessChecks.Run(args[1]);
   if(args.Length==2&&args[0]=="--system-ui-test")return SystemUIChecks.Run(args[1]);
   if(args.Length==3&&args[0]=="--initial-install-review")return InitialInstallReview.Run(args[1],args[2]);
@@ -32,6 +34,7 @@ static class Program {
   if(args.Length==2&&args[0]=="--trial-backup")return PhysicalTrial.Backup(args[1]);
   if(args.Length==3&&args[0]=="--recover-hardware-trial")return PhysicalTrial.Recover(args[1],args[2]);
   if(args.Length==2&&args[0]=="--receiver-diagnostic")return ReceiverDiagnostic.Run(args[1]);
+  if(args.Length==2&&args[0]=="--control-owner-diagnostic")return ReceiverDiagnostic.MainOwner(args[1]);
   if(args.Length==2&&args[0]=="--receiver-soak")return ReceiverDiagnostic.Run(args[1],32);
   if(args.Length==4&&args[0]=="--install-hardware-trial")return PhysicalTrial.Install(args[1],args[2],args[3]);
   if(args.Length==6&&args[0]=="--prepare-hardware-trial"){try{LegacyCFMigration.Prepare(args[1],args[2],args[3],args[4],args[5]);return 0;}catch(Exception e){Directory.CreateDirectory(args[5]);File.WriteAllText(Path.Combine(args[5],"prepare-error.txt"),e.ToString());return 1;}}

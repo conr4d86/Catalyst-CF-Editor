@@ -44,6 +44,8 @@ sealed class AssetTransfer {
  readonly AssetPendingTransfer[] uncertain;readonly IAssetPendingJournal journal;
  uint session,capabilities;
  public bool Ready{get{return session!=0&&(capabilities&AssetWire.DataWrite)!=0;}}
+ internal uint Capabilities{get{RequireCompatibleReceiver();return capabilities;}}
+ internal void RequireCompatibleReceiver(){AssetWire.ValidateCapabilities(capabilities);if(!Ready)throw new InvalidOperationException("Comprueba primero el receptor del amplificador");}
  public AssetTransfer(IAssetExchange exchange,uint productId,IAssetPendingJournal pendingJournal=null){if(exchange==null)throw new ArgumentNullException("exchange");if(productId<2424833||productId>2424835)throw new NotSupportedException("Familia de amplificador no compatible");if(pendingJournal!=null&&pendingJournal.Product!=productId)throw new InvalidDataException("Registro de otro modelo");transport=exchange;product=productId;journal=pendingJournal;uncertain=journal==null?new AssetPendingTransfer[5]:journal.Load();}
  void Remember(byte slot,AssetPendingTransfer pending){var next=(AssetPendingTransfer[])uncertain.Clone();next[slot]=pending;if(journal!=null)journal.Save(session,next);uncertain[slot]=pending;}
  public bool HasPending(byte slot){if(slot>=5)throw new ArgumentOutOfRangeException("slot");return uncertain[slot]!=null;}
@@ -73,7 +75,7 @@ sealed class AssetTransfer {
    Require(reply.Data.Length==20&&Read(reply.Data,8)==256&&Read(reply.Data,12)==5&&Read(reply.Data,16)==2,"El firmware no ofrece un receptor de datos compatible");
    if(Code(reply)==1)throw new IOException("El receptor de datos está ocupado con otra operación. No se ha abierto una sesión nueva; espera a que termine antes de conectar.");
    Require(Code(reply)==0,"El firmware no ha aceptado la sesión de datos");
-   uint flags=Read(reply.Data,4);Require((flags&~(AssetWire.DataWrite|AssetWire.AudioActivate|AssetWire.RecoverReceiving|AssetWire.PreampControl|AssetWire.AllAmpPreamp))==0,"Capacidades del firmware desconocidas");Require((flags&AssetWire.AllAmpPreamp)==0||(flags&AssetWire.PreampControl)!=0,"Capacidad de preamp incompleta");
+   uint flags=Read(reply.Data,4);AssetWire.ValidateCapabilities(flags);
    if((flags&AssetWire.DataWrite)==0)throw new NotSupportedException("Este firmware no permite enviar NAM/IR como datos. Requiere la instalación inicial del CF compatible.");
    if(journal!=null)journal.Save(nonce,uncertain);capabilities=flags;session=nonce;
   }finally{owner.Release();}
@@ -91,12 +93,12 @@ sealed class AssetTransfer {
  }
  public async Task<AssetReceipt> ReadSlot(byte slot,uint transaction,CancellationToken cancel){
   if(slot>=5||transaction==0)throw new ArgumentOutOfRangeException();await owner.WaitAsync(cancel).ConfigureAwait(false);
-  try{if(!Ready)throw new InvalidOperationException("Comprueba primero el receptor del amplificador");for(int poll=0;poll<100;poll++){var result=await Status(slot,transaction,cancel).ConfigureAwait(false);if(result==null||result.Generation!=0)return result;await Task.Delay(40,cancel).ConfigureAwait(false);}throw new IOException("El amplificador sigue preparando esta ranura. Vuelve a consultar su estado.");}finally{owner.Release();}
+  try{RequireCompatibleReceiver();for(int poll=0;poll<100;poll++){var result=await Status(slot,transaction,cancel).ConfigureAwait(false);if(result==null||result.Generation!=0)return result;await Task.Delay(40,cancel).ConfigureAwait(false);}throw new IOException("El amplificador sigue preparando esta ranura. Vuelve a consultar su estado.");}finally{owner.Release();}
  }
  public async Task<AssetResolution> Reconcile(byte slot,uint query,CancellationToken cancel){
   if(slot>=5||query==0)throw new ArgumentOutOfRangeException();await owner.WaitAsync(cancel).ConfigureAwait(false);
   try{
-   if(!Ready)throw new InvalidOperationException("Comprueba primero el receptor del amplificador");var pending=uncertain[slot];if(pending==null)throw new InvalidOperationException("Esta ranura no tiene un envío pendiente de comprobar");
+   RequireCompatibleReceiver();var pending=uncertain[slot];if(pending==null)throw new InvalidOperationException("Esta ranura no tiene un envío pendiente de comprobar");
    var receipt=await Status(slot,query,cancel).ConfigureAwait(false);
    if(receipt!=null&&receipt.Generation==0&&(capabilities&AssetWire.RecoverReceiving)!=0){
     var expected=new byte[196];Write(expected,0,pending.Generation);Write(expected,4,pending.Length);Write(expected,8,pending.Crc);Buffer.BlockCopy(pending.Metadata,0,expected,12,184);
@@ -123,7 +125,7 @@ sealed class AssetTransfer {
   byte[] data=Payload(slot,bytes),info=metadata.Encode();if(slot>=3&&metadata.Filters)throw new InvalidDataException("Los cortes del IR no se aplican al NAM");
   uint digest=AssetWire.Crc(data);await owner.WaitAsync(cancel).ConfigureAwait(false);bool began=false,commitAttempted=false;Exception failure=null;AssetReceipt previous=null;
   try{
-   if(!Ready)throw new InvalidOperationException("Comprueba primero el receptor del amplificador");
+   RequireCompatibleReceiver();
    if(uncertain[slot]!=null)throw new InvalidOperationException("Comprueba el guardado pendiente de esta ranura antes de volver a enviar.");
    if(progress!=null)progress.Report(new AssetProgress("Preparando",0,data.Length));
    previous=await Status(slot,transaction,cancel).ConfigureAwait(false);

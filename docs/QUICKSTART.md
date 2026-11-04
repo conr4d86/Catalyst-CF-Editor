@@ -25,15 +25,19 @@ Open **FIRMWARE CF** and click its single **Install Custom Firmware** button.
 With compatible CF already recognized, it is labelled **Reinstall Custom Firmware**.
 
 It includes **the same demo capture in NAM 1 and NAM 2** and **three demo IRs**.
-The app verifies a twelve-preset backup before installation. Keep power, USB
-and the application connected until completion.
+For an initial installation, the app creates and verifies a twelve-preset backup.
+If the app reports that the installed CF needs an update, it reuses only an earlier verified backup for that
+same edition, without cycling through its presets again. A missing or mismatched
+backup stops the upgrade before firmware transfer. Keep the complete previous
+installation folder. Keep power, USB and the application connected until completion.
 
 When prompted, switch the amplifier off and on normally, **without holding any
-buttons**, then click **Comprobar arranque** (check startup). Editor tabs unlock
+buttons**, then click **Verify startup**. Editor tabs unlock
 after the app confirms compatible CF.
 
-Reinstalling restores all five examples. Keep your original NAM and IR files
-to upload them again afterwards. A preset does not replace those source files.
+Reinstalling creates a new edition and activates all five examples. Previous
+resources remain archived and are not migrated automatically. Keep your original
+NAM and IR files to upload them again afterwards. A preset does not replace those source files.
 
 ## 3. Change a NAM or IR without reinstalling
 

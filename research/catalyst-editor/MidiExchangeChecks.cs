@@ -41,7 +41,7 @@ static class MidiExchangeChecks {
   }cases.Add("No constructor IO; corrupt/foreign/wrong correlation ignored; duplicate and fragmented replies");
   {
    var c=new Channel{Product=2424833};c.Handler=b=>c.Receive(Bytes(Reply(b)));using(var exchange=new AssetMidiExchange(c)){
-    var query=Packet(912,13);Need((await exchange.Exchange(query,1000,CancellationToken.None)).SequenceEqual(Bytes(Reply(query))),"Fixed stateless diagnostic rejected");
+    foreach(byte opcode in new byte[]{13,14}){var query=Packet(912,opcode);Need((await exchange.Exchange(query,1000,CancellationToken.None)).SequenceEqual(Bytes(Reply(query))),"Fixed stateless diagnostic rejected");}
    }
   }cases.Add("Fixed stateless diagnostic reaches the correlated transport without opening a write session");
   {
@@ -102,7 +102,7 @@ static class MidiExchangeChecks {
     await Expect<InvalidDataException>(exchange.Exchange(new byte[]{0xf0,0xf7},1000,CancellationToken.None),"Foreign outgoing message accepted");
     await Expect<InvalidDataException>(exchange.Exchange(Bytes(Reply(Packet())),1000,CancellationToken.None),"Reply sent as request");
     await Expect<InvalidDataException>(exchange.Exchange(Packet(1,5,0),1000,CancellationToken.None),"Zero session accepted");
-    foreach(byte opcode in new byte[]{8,13})foreach(var query in new[]{Packet(1,opcode,1),Packet(1,opcode,0,1),Packet(1,opcode,0,0,1)})await Expect<InvalidDataException>(exchange.Exchange(query,1000,CancellationToken.None),"Malformed stateless query accepted");
+    foreach(byte opcode in new byte[]{8,13,14}){foreach(var query in new[]{Packet(1,opcode,1),Packet(1,opcode,0,1),Packet(1,opcode,0,0,1)})await Expect<InvalidDataException>(exchange.Exchange(query,1000,CancellationToken.None),"Malformed stateless query accepted");var body=AssetWire.Decode(Packet(1,opcode));body.Data=new byte[]{1};await Expect<InvalidDataException>(exchange.Exchange(Bytes(body),1000,CancellationToken.None),"Diagnostic payload must remain empty");}
     await Expect<ArgumentOutOfRangeException>(exchange.Exchange(Packet(),0,CancellationToken.None),"Invalid timeout accepted");Need(c.Sends==0,"Invalid outgoing request reached channel");
     c.Product=2424834;var changed=AssetWire.Decode(Packet());changed.Product=2424834;await Expect<InvalidDataException>(exchange.Exchange(Bytes(changed),1000,CancellationToken.None),"Channel rebound to a different product");Need(c.Sends==0,"Rebound channel sent a request");
    }

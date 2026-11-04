@@ -1,0 +1,374 @@
+[
+  {
+    "name": "HD2_AmpImpossibleClean",
+    "symbol": 24,
+    "signature": [
+      1,
+      4,
+      53,
+      150320,
+      4,
+      156364
+    ],
+    "params": {
+      "Drive": 1,
+      "Bass": 2,
+      "Mid": 3,
+      "Treble": 4,
+      "Presence": 5,
+      "ChVol": 6,
+      "Master": 7,
+      "HumSwitch": 8,
+      "Boost": 9,
+      "Hum": 10,
+      "Ripple": 11,
+      "BiasX": 12,
+      "Bias": 13,
+      "Sag": 14,
+      "BoostSwitch": 20,
+      "FullPreSwitch": 30
+    }
+  },
+  {
+    "name": "HD2_AmpImpossibleMetal",
+    "symbol": 72,
+    "signature": [
+      1,
+      7,
+      84,
+      140316,
+      5,
+      150268
+    ],
+    "params": {
+      "Drive": 1,
+      "Bass": 2,
+      "Mid": 3,
+      "Treble": 4,
+      "Presence": 5,
+      "ChVol": 6,
+      "Master": 7,
+      "Resonance": 8,
+      "HumSwitch": 9,
+      "Sag": 10,
+      "Hum": 11,
+      "Ripple": 12,
+      "Bias": 13,
+      "BiasX": 14,
+      "Boost": 15,
+      "BoostSwitch": 20,
+      "FullPreSwitch": 30
+    }
+  },
+  {
+    "name": "HD2_AmpImpossibleBoutique",
+    "symbol": 80,
+    "signature": [
+      1,
+      4,
+      60,
+      133340,
+      4,
+      140280
+    ],
+    "params": {
+      "Drive": 1,
+      "Bass": 2,
+      "Mid": 3,
+      "Treble": 4,
+      "Presence": 5,
+      "ChVol": 6,
+      "Master": 7,
+      "Sag": 8,
+      "Hum": 9,
+      "Ripple": 10,
+      "Bias": 11,
+      "BiasX": 12,
+      "Boost": 13,
+      "HumSwitch": 19,
+      "BoostSwitch": 20,
+      "FullPreSwitch": 30
+    }
+  },
+  {
+    "name": "HD2_AmpImpossibleAC",
+    "symbol": 82,
+    "signature": [
+      1,
+      5,
+      78,
+      124648,
+      5,
+      133288
+    ],
+    "params": {
+      "Drive": 1,
+      "Boost": 2,
+      "Bass": 3,
+      "Mid": 4,
+      "Treble": 5,
+      "ChVol": 6,
+      "Presence": 7,
+      "Master": 8,
+      "HumSwitch": 10,
+      "Sag": 11,
+      "Bias": 12,
+      "BiasX": 13,
+      "Hum": 14,
+      "Ripple": 15,
+      "BoostSwitch": 20,
+      "FullPreSwitch": 30
+    }
+  },
+  {
+    "name": "HD2_AmpImpossibleCrunch",
+    "symbol": 86,
+    "signature": [
+      1,
+      9,
+      89,
+      113136,
+      5,
+      124596
+    ],
+    "params": {
+      "Drive": 1,
+      "Bass": 2,
+      "Mid": 3,
+      "Treble": 4,
+      "Presence": 5,
+      "ChVol": 6,
+      "Master": 7,
+      "Sag": 8,
+      "Hum": 9,
+      "Boost": 10,
+      "HumSwitch": 12,
+      "Ripple": 13,
+      "Bias": 14,
+      "BiasX": 15,
+      "BoostSwitch": 20,
+      "FullPreSwitch": 30
+    }
+  },
+  {
+    "name": "HD2_AmpImpossibleDynamic",
+    "symbol": 90,
+    "signature": [
+      1,
+      7,
+      80,
+      103540,
+      5,
+      113084
+    ],
+    "params": {
+      "Drive": 1,
+      "Drive2": 2,
+      "Bass": 3,
+      "Mid": 4,
+      "Treble": 5,
+      "ChVol": 6,
+      "Master": 7,
+      "Presence": 8,
+      "Depth": 9,
+      "Boost": 10,
+      "Bright": 11,
+      "Sag": 12,
+      "Hum": 13,
+      "Ripple": 14,
+      "Bias": 15,
+      "BiasX": 16,
+      "HumSwitch": 19,
+      "BoostSwitch": 20,
+      "FullPreSwitch": 30
+    }
+  },
+  {
+    "name": "A45_AmpLine6Ventoux",
+    "symbol": 102,
+    "signature": [
+      1,
+      7,
+      62,
+      178012,
+      4,
+      185080
+    ],
+    "params": {
+      "Drive": 1,
+      "HPF": 2,
+      "Mid": 3,
+      "Presence": 4,
+      "Depth": 5,
+      "ChVol": 6,
+      "Master": 7,
+      "Sag": 8,
+      "Hum": 9,
+      "Ripple": 10,
+      "Bias": 11,
+      "BiasX": 12,
+      "Boost": 13,
+      "HumSwitch": 17,
+      "Treble": 18,
+      "Bass": 19,
+      "BoostSwitch": 20
+    }
+  },
+  {
+    "name": "A45_AmpLine62204Mod",
+    "symbol": 108,
+    "signature": [
+      1,
+      4,
+      81,
+      167024,
+      4,
+      177976
+    ],
+    "params": {
+      "Drive": 1,
+      "Bass": 2,
+      "Mid": 3,
+      "Treble": 4,
+      "Presence": 5,
+      "ChVol": 6,
+      "Master": 7,
+      "Sag": 8,
+      "Boost": 9,
+      "PreMidFc": 10,
+      "Bias": 11,
+      "BiasX": 12,
+      "Ripple": 13,
+      "Hum": 14,
+      "HumSwitch": 18,
+      "BoostSwitch": 20
+    }
+  },
+  {
+    "name": "A45_AmpGSG100",
+    "symbol": 116,
+    "signature": [
+      5,
+      5,
+      90,
+      156400,
+      5,
+      166972
+    ],
+    "params": {
+      "Drive": 1,
+      "Bass": 2,
+      "Mid": 3,
+      "Treble": 4,
+      "Presence": 5,
+      "ChVol": 6,
+      "Master": 7,
+      "MidSwitch": 8,
+      "JazzRock": 9,
+      "ODSwitch": 10,
+      "ODDrive": 11,
+      "ODLevel": 12,
+      "Bright": 13,
+      "FETBoost": 14,
+      "PAB": 15,
+      "Sag": 16,
+      "Hum": 17,
+      "Ripple": 18,
+      "Bias": 19,
+      "BiasX": 20,
+      "Boost": 21,
+      "BoostSwitch": 22,
+      "HumSwitch": 23
+    }
+  },
+  {
+    "name": "A45_AmpImpossibleMetalMkII",
+    "symbol": 154,
+    "signature": [
+      1,
+      4,
+      58,
+      194600,
+      4,
+      200904
+    ],
+    "params": {
+      "Drive": 1,
+      "Bass": 2,
+      "Mid": 3,
+      "Treble": 4,
+      "Presence": 5,
+      "ChVol": 6,
+      "Master": 7,
+      "Depth": 8,
+      "Sag": 9,
+      "Bias": 10,
+      "BiasX": 11,
+      "Ripple": 13,
+      "Hum": 14,
+      "Boost": 15,
+      "HumSwitch": 19,
+      "BoostSwitch": 20
+    }
+  },
+  {
+    "name": "A45_AmpImpossibleCleanMkII",
+    "symbol": 157,
+    "signature": [
+      33,
+      6,
+      75,
+      185116,
+      5,
+      194548
+    ],
+    "params": {
+      "Drive": 1,
+      "Bass": 2,
+      "Mid": 3,
+      "Treble": 4,
+      "Presence": 5,
+      "ChVol": 6,
+      "Master": 7,
+      "Sag": 8,
+      "Hum": 17,
+      "Ripple": 18,
+      "Bias": 19,
+      "BiasX": 20,
+      "Boost": 21,
+      "BoostSwitch": 22,
+      "HumSwitch": 23
+    }
+  },
+  {
+    "name": "A45_AmpImpossibleElmsleyNFB",
+    "symbol": 159,
+    "signature": [
+      1,
+      5,
+      66,
+      200940,
+      4,
+      209572
+    ],
+    "params": {
+      "Drive": 1,
+      "Bass": 2,
+      "Mid": 3,
+      "Treble": 4,
+      "Master": 5,
+      "ChVol": 6,
+      "Presence": 7,
+      "Depth": 8,
+      "NFB": 9,
+      "Sag": 10,
+      "Hum": 11,
+      "Ripple": 12,
+      "Bias": 13,
+      "BiasX": 14,
+      "Boost": 15,
+      "HumSwitch": 19,
+      "BoostSwitch": 20
+    }
+  }
+]

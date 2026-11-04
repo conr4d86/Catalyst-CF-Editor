@@ -7,9 +7,11 @@ This document is for developers. To use the released application, download
 
 The tree contains the desktop editor's C# source, the corresponding original C#
 for its embedded legacy host components, resource definitions, the NAM importer,
-IR converter, and the C/Python sources used for the r103 all-model audio adapter,
-resource owner and firmware assembly pipeline. Generated **source** translation
-units and headers are included alongside their generators.
+IR converter, and the C/Python/assembly sources used for the corrected r105
+all-model audio adapter, DSP control owner, resource owner and firmware assembly
+pipeline. Generated **source** translation units and headers are included
+alongside their generators. Earlier adapters remain as generator inputs and
+negative regression fixtures; their inclusion does not select them for release.
 
 `SOURCE-INVENTORY.json` lists the curated project files and their SHA256 hashes.
 The source layout retains the original relative `research/` structure so that
@@ -32,11 +34,13 @@ mean that the manufacturer's source code is available here.
 | `research/catalyst-editor/legacy-pinned-sources/` | Decoder source pinned by the unchanged legacy components |
 | `research/catalyst-ir/` | Original host codecs, filters, level preparation and container tooling needed by those components |
 | `research/catalyst-nam/app/` | NAM model importer and original packaging source |
-| `research/catalyst-nam/build-fast/span-max-r94/` | Exact optimized audio-kernel C translation unit consumed by the r103 build |
+| `research/catalyst-nam/build-fast/span-max-r94/` | Optimized audio-kernel C translation unit consumed by the selected corrected build |
 | `research/catalyst-nam/dual-lab/lease-build/` | Earlier adapter source and source tables used by the all-model generator |
 | `research/catalyst-nam/all-amps-lab/` | All-model adapter/actor generators, generated C and offline verification code |
+| `research/catalyst-nam/all-amps-lab/control-owner-lab/` | Selected DSP-owner C/assembly, generated adapter and actor source, binding headers and linker scripts |
+| `research/catalyst-nam/all-amps-lab/podgo-review/` | Static native task/mutex ABI provenance and its read-only verification script |
 | `research/catalyst-nam/asset-lab/` | Serialized resource store, transfer protocol, recovery and owner sources |
-| `research/catalyst-nam/boost-lab/` | Preamp processing and preset sidecars; `tonal-v2/` contains the r103 pedal implementation |
+| `research/catalyst-nam/boost-lab/` | Preamp processing and preset sidecars; `tonal-v2/` contains the selected pedal implementation |
 | `research/catalyst-nam/external/NeuralAmpModelerCore/` | Official NAM Core preferred source used as the host comparison reference, with its MIT licence |
 
 The official comparison reference is pinned to commit
@@ -90,30 +94,66 @@ memory-bound or product checks to make an incomplete checkout compile.
 
 ## Maintainer pipeline for this engine revision
 
-The historical top-level editor builder still describes the earlier base engine.
-The r103 engine is selected by the all-model wrapper. After restoring the required
-external inputs and rebuilding prerequisite reference artifacts, the relevant
-stages are:
+The historical top-level editor builder still describes an earlier base engine.
+The corrected engine is selected by `build_control_app.py`. It removes native
+graph setters from audio and reconciles the OEM Boost state on the native DSP
+control task, using a nonblocking outer-mutex acquisition and a current Amp slot
+resolved under that mutex. The shared node wrapper preserves requested values;
+the native loader hook invalidates state when a model is loaded again, including
+reuse at the same address. These are implementation properties, not a substitute
+for a physical preset-change test.
+Some internal helper names retain `main`; their stack/queue/IPSR guards and the
+installed wait hook select `DspSchedulerCtrlTask`, rather than UserMode/Main.
+
+After restoring the required external inputs and rebuilding prerequisite
+reference artifacts, the selected stages are:
 
 ```powershell
-python research/catalyst-nam/all-amps-lab/build_all_amps.py
-python research/catalyst-nam/all-amps-lab/build_actor_variant.py
-python research/catalyst-nam/all-amps-lab/verify_all_amps.py
-python research/catalyst-nam/all-amps-lab/verify_boot_variant.py
+python research/catalyst-nam/all-amps-lab/build_control_owner.py
+python research/catalyst-nam/all-amps-lab/build_control_actor.py
+python research/catalyst-nam/all-amps-lab/build_control_boot.py
+python research/catalyst-nam/all-amps-lab/verify_control_native.py
+python research/catalyst-nam/all-amps-lab/build_control_app.py --bootstrap
 ```
 
-The actor and reset/owner verifiers use earlier locally built reference artifacts
-as invariants. This snapshot intentionally excludes those binaries and reports;
-the four commands above are **not** a claim that a clean download can reconstruct
-the release in isolation. Inspect the scripts for their prerequisites and rebuild
-the corresponding originals before using the all-model stages.
+The bootstrap executable has installation disabled. Its fake-backend firmware UI
+check prepares an exact package without sending it to a device. The next gate
+runs `verify_control_owner.py --package <offline-package.ctf> --output <folder>`
+on that package. `verify_control_variant.py` checks the audio, actor, native-control,
+reset, source hashes and exact-package owner results before
+`build_control_app.py` can create the enabled user-trial executable.
 
-`build_trial_app.py` is the original r103 wrapper. Its private-trial naming and
-product allowlist describe how that build was prepared; they are not a mechanism
-for asserting new hardware coverage. It incorporates the verified all-model
-segment into the regular editor build. `verify_variant.py` ties the audio, owner,
-reset and host source hashes together. Regenerate verification results after a
-source change rather than editing a report to force a pass.
+The actor and reset/owner verifiers also use earlier locally built reference
+artifacts as invariants. This snapshot intentionally excludes those binaries,
+hardware reports and private package/demo inputs. These commands are **not** a
+claim that a clean download can reconstruct the release in isolation. Inspect
+the scripts for prerequisites and rebuild the corresponding originals first.
+
+`build_all_amps.py`, `build_actor_variant.py`, `build_trial_app.py` and their
+earlier verification scripts are retained as historical generator/regression
+inputs. In particular, the old all-model binary is expected to fail the new
+regression if it attempts a native graph setter from audio. Do not substitute
+that older segment for the selected `control-owner-lab` segment.
+
+The explicit product allowlist and physical-test status inside these build gates
+describe their actual validation scope. They do not establish new hardware
+coverage. Regenerate verification results after a source change rather than
+editing a report or weakening a gate to force a pass.
+
+## Host upgrade path
+
+`CFUpgradeBackup.cs` validates a local archive and its repeated-read evidence
+against the full edition identified on the connected amplifier. The coordinator's
+upgrade path resolves that archive before acquiring an installation connection;
+it does not repeat the older firmware's preset-selection backup scan. Missing,
+changed or ambiguous evidence fails closed. `CFInstallChecks.cs` covers this
+behavior with fake transports and synthetic backup files; no personal backup is
+included in this snapshot.
+
+Reinstallation creates a new resource edition with the bundled demo slots. The
+older edition's stored resources are archival, not a migration of the active NAM
+and IR slots. Backup reuse must not be described as preserving active capture
+content or as taking a fresh snapshot of recent preset edits.
 
 ## Useful offline checks
 
@@ -164,6 +204,16 @@ fixtures. In contrast, switches containing `--install-hardware-trial`,
 can access a real device. Do not use hardware tooling as a substitute for an
 offline test, or while another Line 6 application owns the connection.
 
+`verify_control_native.py` runs the pinned native load/set/dispatch routines in
+emulation and covers twelve model signatures, mutex-busy deferral, same-address
+reloads, inactive graph controls, mailbox generations, original queue-message
+semantics and failure paths. RTOS/mutex/IPSR behavior is explicitly mocked.
+`verify_control_owner.py` covers the packaged host/ARM owner path. Neither test
+establishes silicon scheduling, interrupt stack usage, audible quality or a
+successful physical installation. The optional static ABI script under
+`podgo-review/` reads the original firmware image and writes only local analysis
+outputs; those outputs are not distributed here.
+
 Local build, emulation, USB transfer and audible hardware behavior are distinct
 results. Source availability and matching hashes do not establish model support
 or a successful physical installation.
@@ -171,8 +221,11 @@ or a successful physical installation.
 ## Español
 
 Este árbol contiene las fuentes correspondientes del editor, importador NAM,
-convertidor IR, preamps y motor r103, además de los generadores y sus fuentes C
-generadas. No contiene SDK/DLL del fabricante, firmware, capturas NAM, IR privados,
+convertidor IR, preamps y motor r105 corregido, además de los generadores y sus
+fuentes C/ensamblador generadas. La ruta seleccionada está en
+`all-amps-lab/control-owner-lab`; los adaptadores anteriores se conservan como
+entradas y regresiones, no como firmware seleccionado. No contiene SDK/DLL del
+fabricante, firmware, capturas NAM, IR privados,
 copias de presets, registros de pruebas ni herramientas instaladas.
 
 Por ello, la compilación completa del EXE requiere preparar por separado esos

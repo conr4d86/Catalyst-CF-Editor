@@ -19,7 +19,7 @@ sealed class DarkLogBox:UserControl {
  internal void ScrollToLine(int line){if(!text.IsHandleCreated)return;line=Math.Max(0,Math.Min(LastScrollLine,line));SendMessage(text.Handle,0xB6,IntPtr.Zero,(IntPtr)(line-FirstLine));Sync();}
  internal void Wheel(int delta){int lines=SystemInformation.MouseWheelScrollLines;if(lines<0)lines=VisibleLines;if(lines==0)return;ScrollToLine(FirstLine-(int)Math.Round(delta/120.0*lines));}
  internal void Sync(){if(scroll!=null)scroll.Invalidate();}
- public void AppendText(string value){int previous=FirstLine;bool follow=previous>=LastScrollLine;text.AppendText(value);if(follow){text.SelectionStart=text.TextLength;text.SelectionLength=0;text.ScrollToCaret();}else ScrollToLine(previous);Sync();}
+ public void AppendText(string value){if(IsDisposed||Disposing||text.IsDisposed||text.Disposing)return;int previous=FirstLine;bool follow=previous>=LastScrollLine;text.AppendText(value);if(follow){text.SelectionStart=text.TextLength;text.SelectionLength=0;text.ScrollToCaret();}else ScrollToLine(previous);Sync();}
  sealed class LogText:TextBox {readonly DarkLogBox owner;public LogText(DarkLogBox value){owner=value;}
   protected override void OnMouseWheel(MouseEventArgs e){owner.Wheel(e.Delta);}
   protected override void WndProc(ref Message message){base.WndProc(ref message);if(owner!=null&&(message.Msg==0x115||message.Msg==0x101||message.Msg==0x200||message.Msg==0x202||message.Msg==0xC||message.Msg==0xC2))owner.Sync();}

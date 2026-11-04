@@ -43,8 +43,15 @@ No necesitas seleccionar archivos: los ejemplos vienen integrados. La app
 verifica una copia de los doce presets antes de la instalación. Mantén el
 USB y la alimentación conectados hasta que termine y reinicia normalmente
 cuando lo indique y pulsa **Comprobar arranque**. **Reinstalar Custom Firmware**
-sustituye las cinco posiciones por los ejemplos incluidos; conserva tus archivos
-NAM e IR originales antes de reinstalar.
+crea una edición nueva y activa los cinco ejemplos incluidos. Los recursos anteriores
+quedan archivados, sin migración automática; conserva tus archivos NAM e IR
+originales para volver a enviarlos.
+
+Si ya tienes instalado el motor corregido incluido aquí, esta actualización del
+host solo requiere sustituir el EXE. Si la app indica que un CF anterior necesita
+actualizarse, esa ruta reutiliza una copia local verificada de los presets de la
+misma edición instalada, sin seleccionarlos repetidamente. Si falta o no coincide,
+se detiene antes de transferir firmware. Consulta las [preguntas frecuentes](docs/FAQ.md).
 
 Esta revisión habilita la instalación inicial en **Catalyst 60/CX60**. El
 código contempla 100/200, pero no hay pruebas físicas en esos modelos y su
@@ -77,10 +84,14 @@ NAM actúa por el altavoz y las salidas directas. Los IR corresponden a
 
 ## Pruebas y recuperación
 
-Una versión anterior del motor se ha probado en una unidad 60/CX60 con base oficial
-2.02. Esta versión incorpora preamps para los doce modelos y las dos posiciones
-NAM, comprobados en emulación. No hay una matriz física completa documentada para
-esta revisión del motor; consulta el [informe de validación](docs/VALIDACION.md).
+El CF corregido se transfirió a una unidad 60/CX60 de desarrollo; el usuario confirmó
+arranque normal y sonido, y los diagnósticos de lectura avanzaron sin fault registrado.
+El host r106 pasó trece grupos locales sin abrir SDK ni USB. La regresión del control
+nativo cubre doce modelos en emulación. El usuario confirmó cambios físicos con
+CH A/B, con las apps cerradas y sin perder el sonido. También confirmó A → B → A
+desde el editor, con audio y controles funcionando. Siguen pendientes el guardado
+del preamp, la persistencia tras apagar y encender y la matriz completa de hardware;
+consulta el [informe de validación](docs/VALIDACION.md).
 No se garantiza ausencia de fallos ni compatibilidad física con 100/200.
 
 Lee [Uso](docs/USO.md), [Recuperación](docs/RECUPERACION.md) y

@@ -1,0 +1,9 @@
+/* Generated from this exact audio ELF; no supplied device addresses. */
+#define CF_STOCK_STATE_ADDRESS 537286036u
+#define CF_FACTORY_AMP_ADDRESS 89485u
+#define CF_TRIAL_NODE_CONTROL_ADDRESS 88773u
+#define CF_SEQUENCE_OFFSET 476u
+#define CF_PENDING_OFFSET 448u
+#define CF_PEDAL_MODE_OFFSET 284u
+#define CF_BOOST_ENABLED_OFFSET 280u
+#define CF_STOCK_SWITCH_IDS {20,20,20,20,20,20,20,20,22,20,22,20}

@@ -196,3 +196,21 @@ Custom Firmware reconocido. Editor desbloqueado.	Custom Firmware recognized. Edi
 
 Entrada NAM	NAM input
 Entrada: saturación y respuesta. Salida: volumen final.	Input: saturation and response. Output: final volume.
+El Custom Firmware instalado necesita actualizarse. Abre «FIRMWARE CF» y pulsa «Reinstalar Custom Firmware».	The installed Custom Firmware needs an update. Open "CF FIRMWARE" and click "Reinstall Custom Firmware".
+Capacidades del firmware desconocidas	The firmware reports unknown capabilities.
+Capacidad de preamp incompleta	The firmware reports incomplete preamp support.
+No se conserva íntegra la copia verificada de esta edición.	The verified backup for this edition is missing or incomplete.
+La verificación de la copia está incompleta.	The backup verification is incomplete.
+La verificación contiene una huella incorrecta.	The backup verification contains an invalid hash.
+Falta la verificación repetida de los presets.	The repeated preset verification is missing.
+La copia no contiene la verificación de los 12 presets.	The backup does not include verification of all 12 presets.
+Los índices de la copia no corresponden a los 12 presets.	The backup indices do not cover all 12 presets.
+Nombre de lectura de respaldo no válido.	Invalid backup read filename.
+La copia verificada ha cambiado; no se leerán los presets del amplificador.	The verified backup has changed; amplifier presets will not be read.
+Falta la edición completa comprobada del firmware instalado. No se leerán los presets del amplificador.	The verified full edition of the installed firmware is missing. Amplifier presets will not be read.
+No se conserva una copia verificada para actualizar esta edición. No se cambiará ningún preset del amplificador.	There is no verified backup for upgrading this edition. No amplifier preset will be changed.
+Revisa las copias anteriores antes de actualizar.	Review previous backups before upgrading.
+No hay una única copia verificada de los 12 presets para esta edición. No se leerán ni cambiarán los presets del amplificador.	No unique verified 12-preset backup exists for this edition. Amplifier presets will not be read or changed.
+El registro o firmware de la copia verificada ha cambiado.	The verified backup record or firmware has changed.
+Destino de respaldo incorrecto.	Incorrect backup destination.
+No coincide la copia fijada para la actualización.	The backup does not match the one pinned for this upgrade.

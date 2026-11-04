@@ -18,7 +18,7 @@ sealed partial class AssetDataPanel:Panel {
  AssetTransfer client;byte selected=3;bool active,preview,updating,importing,sending,calculating,connecting,disposed,knownReceiver;string receiverText="Receptor de datos sin comprobar",operationError;
  static readonly int[] VisualSlots={3,4,0,1,2};
  internal void SetKnownReceiver(bool known){knownReceiver=known;Render();}
- public event Action StateChanged;internal event Action<uint,string> ReceiverVerified;internal event Action InstallationStarted,ReceiverLost;
+ public event Action StateChanged;internal event Action<uint,string,uint> ReceiverVerified;internal event Action InstallationStarted,ReceiverLost;
  public bool Busy{get{return importing||sending||calculating||connecting;}}public int SelectedSlot{get{return selected;}}
  public bool Ready{get{return active&&!Busy&&client!=null&&client.Ready&&(dataSession==null||dataSession.Ready);}}
  public string ConnectionText{get{return client!=null&&client.Ready?"Receptor de datos conectado":"Conexión de datos sin comprobar";}}
@@ -103,6 +103,7 @@ sealed partial class AssetDataPanel:Panel {
   catch{DropReceiver();throw;}finally{connecting=false;Render();}
  }
  async Task AdoptReceiver(AssetTransfer candidate,CancellationToken cancel){
+   if(candidate==null)throw new InvalidOperationException("Comprueba primero el receptor del amplificador");candidate.RequireCompatibleReceiver();
    int pending=-1;for(byte slot=0;slot<5;slot++)if(candidate.HasPending(slot)){pending=slot;break;}
    // An abandoned transfer may still hold the receiver's serialized store.
    // Do not let advisory reads of other slots hide its reconciliation action.

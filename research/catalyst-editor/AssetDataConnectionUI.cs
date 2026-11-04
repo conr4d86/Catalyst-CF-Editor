@@ -22,10 +22,11 @@ sealed partial class AssetDataPanel {
    var current=dataSession;sessionFailure=error=>ConnectionFailed(current,error);dataSession.Failed+=sessionFailure;receiverText="Comprobando el receptor de datos…";Render();
    await dataSession.Connect(verifiedProduct,Nonce(),CancellationToken.None);
    await AdoptReceiver(dataSession.Client,CancellationToken.None);
-   ConfirmInitialReceiver();if(ReceiverVerified!=null)ReceiverVerified(verifiedProduct,dataSession.VerifiedIdentity);
+   ConfirmInitialReceiver();if(ReceiverVerified!=null)ReceiverVerified(verifiedProduct,dataSession.VerifiedIdentity,dataSession.Client.Capabilities);
    if(initialMode&&initialRecord!=null&&initialRecord.Phase=="active"){await ReleaseSession();DropReceiver();knownReceiver=true;receiverText="✓ Custom Firmware instalado y comprobado";}
   }catch(Exception error){failure=error;}
   if(failure!=null){
+   if(failure is FirmwareUpgradeRequiredException){knownReceiver=true;if(ReceiverLost!=null)ReceiverLost();}
    DropReceiver();try{await ReleaseSession();}catch(Exception cleanup){failure=new IOException(failure.Message+" "+cleanup.Message,cleanup);}
    Note(failure.Message,true);
   }

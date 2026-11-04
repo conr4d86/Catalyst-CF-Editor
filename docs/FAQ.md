@@ -37,14 +37,42 @@ o un IR. No es necesario rellenar las cinco.
 
 Un único botón instala el motor, **la misma captura de prueba en NAM 1 y NAM 2**
 y **tres IR de prueba**, tras verificar una copia de los doce presets.
-Reinstalar vuelve a poner esos cinco ejemplos: conserva tus archivos originales
-para volver a enviarlos. No reinstales solo para cambiar una captura.
+Reinstalar crea una edición nueva y vuelve a poner esos cinco ejemplos como
+recursos activos. Los de la edición anterior quedan archivados, sin migrarse
+automáticamente: conserva tus archivos originales para volver a enviarlos.
+No reinstales solo para cambiar una captura.
+
+### Ya tengo un CF anterior. ¿Cómo se hace la actualización?
+
+Depende de la revisión. Si la app indica que el CF instalado necesita actualizarse,
+identifica su edición y reutiliza una copia local verificada
+de los doce presets asociada a esa misma edición. Comprueba también sus archivos
+de verificación; no vuelve a cambiar de preset repetidamente para hacer otra copia
+en el CF antiguo. Esta copia anterior no incluye necesariamente tus últimos ajustes.
+
+Si falta, está modificada o no corresponde a esa edición, la actualización se
+detiene antes de abrir la conexión de instalación y transferir firmware. Conserva
+la carpeta completa de la instalación anterior. No elimines las verificaciones ni
+insistas repitiendo selecciones de preset para saltarte el bloqueo.
+
+Las revisiones anteriores que no requieren esa actualización mantienen el flujo
+normal con una copia nueva de presets antes de reinstalar.
+
+La reinstalación deja activos **los dos NAM y tres IR de prueba**, no tus capturas
+anteriores. Después usa **CAMBIAR NAM / IR** para volver a enviar las que quieras.
 
 ### ¿Admite cualquier archivo .nam?
 
 No: esta versión requiere **NAM A2 Lite, mono y 48 kHz**, con la estructura
 admitida por el importador. Cambiar la extensión o el nombre no convierte otra
 arquitectura. Si el archivo no es compatible, la app lo rechaza antes de enviarlo.
+
+### ¿La copia de presets también guarda mis NAM, IR y ajustes del CF?
+
+No. **Copia completa** reúne los doce presets nativos en `.catl6a`; `.catl6p`
+contiene un preset. Esos formatos no incluyen capturas NAM, IR ni los ajustes
+adicionales del CF almacenados aparte. Conserva tus archivos originales y no
+interpretes una copia de presets como una copia completa de los recursos del CF.
 
 ### ¿Por qué hay Entrada NAM y Volumen de salida?
 
@@ -62,6 +90,8 @@ continuo mientras tocas ni garantiza idéntica sonoridad con cualquier guitarra 
 Los archivos de audio decodificables se adaptan a **mono, 48 kHz y 2.048 muestras**.
 La app admite WAV, AIFF/AIFC y FLAC, con conversión cuando hace falta. No puede
 reconstruir audio de un archivo corrupto o de un formato que no pueda decodificar.
+El límite es **64 MiB por archivo**. Los formatos propietarios no decodificables
+se rechazan; cambiar la extensión no convierte su contenido.
 
 Los cortes iniciales y los tres ejemplos son **80 Hz / 8.000 Hz**. Puedes ajustar
 los filtros antes del envío. Se aplican al preparar el IR: para guardar otros
@@ -144,14 +174,41 @@ you do not have to fill all five.
 
 One button installs the engine, **the same demo capture in NAM 1 and NAM 2**,
 and **three demo IRs**, after verifying a twelve-preset backup.
-Reinstalling restores those five examples: retain your original files to upload
-them again. Do not reinstall merely to change one capture.
+Reinstalling creates a new edition and activates those five examples. Previous
+edition resources remain archived and are not migrated automatically: retain
+your original files to upload them again. Do not reinstall merely to change one capture.
+
+### I already have an older CF. How does upgrading work?
+
+It depends on the revision. If the app reports that the installed CF needs an
+update, it identifies its edition and reuses a locally verified
+twelve-preset backup associated with that same edition. It also checks the backup's
+verification files; it does not repeatedly select presets on the older CF to make
+another backup. That earlier backup may not contain your most recent edits.
+
+A missing, modified or mismatched backup stops the upgrade before opening the
+installation connection and transferring firmware. Keep the complete previous
+installation folder. Do not delete verification files or keep cycling presets
+to bypass the block.
+
+Earlier revisions that do not require that update use the normal workflow,
+including a fresh preset backup before reinstalling.
+
+Reinstallation activates **the two demo NAMs and three demo IRs**, rather than your
+previous captures. Afterwards, use **CHANGE NAM / IR** to upload the files you want.
 
 ### Will any .nam file work?
 
 No. This version requires **NAM A2 Lite, mono, 48 kHz**, with the structure
 accepted by the importer. Renaming a file does not convert another architecture.
 An incompatible file is rejected before uploading.
+
+### Does a preset backup also save my NAMs, IRs and CF settings?
+
+No. **Full backup** collects the twelve native presets in `.catl6a`; `.catl6p`
+contains one preset. These formats do not include NAM captures, IRs or separately
+stored additional CF settings. Keep your original files and do not treat a preset
+backup as a complete backup of CF resources.
 
 ### Why are NAM Input and Output Volume separate?
 
@@ -170,6 +227,8 @@ with every guitar or preset.
 Decodable audio files are converted to **mono, 48 kHz, 2,048 samples**.
 WAV, AIFF/AIFC and FLAC are supported, with conversion when needed. Corrupt audio
 or an undecodable format cannot be reconstructed by the importer.
+The limit is **64 MiB per file**. Undecodable proprietary formats are rejected;
+renaming the extension does not convert their contents.
 
 Initial cuts and all three examples use **80 Hz / 8,000 Hz**. Adjust filters
 before uploading. They are applied during IR preparation: prepare and upload

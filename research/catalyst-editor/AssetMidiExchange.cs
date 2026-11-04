@@ -66,7 +66,7 @@ sealed class AssetMidiExchange:IAssetExchange,IDisposable {
  public async Task<byte[]> Exchange(byte[] packet,int timeoutMs,CancellationToken cancel){
   if(timeoutMs<1||timeoutMs>30000)throw new ArgumentOutOfRangeException("timeoutMs");
   if(packet==null)throw new ArgumentNullException("packet");var copy=(byte[])packet.Clone();var request=AssetWire.Decode(copy);
-  if(request==null||channel.Product!=product||request.Product!=product||request.Opcode<1||request.Opcode>13||request.Slot>=(request.Opcode>=9?13:5)||request.Transaction==0||((request.Opcode==1||request.Opcode==8||request.Opcode==13)?(request.Session!=0||request.Slot!=0||request.Number!=0||request.Data.Length!=0):request.Session==0))throw new InvalidDataException("La petición no corresponde a este canal de datos");
+  if(request==null||channel.Product!=product||request.Product!=product||request.Opcode<1||request.Opcode>14||request.Slot>=(request.Opcode>=9?13:5)||request.Transaction==0||((request.Opcode==1||request.Opcode==8||request.Opcode==13||request.Opcode==14)?(request.Session!=0||request.Slot!=0||request.Number!=0||request.Data.Length!=0):request.Session==0))throw new InvalidDataException("La petición no corresponde a este canal de datos");
   await owner.WaitAsync(cancel).ConfigureAwait(false);Task sent=null;Task<byte[]> result=null;TaskCompletionSource<byte[]> waiting=null;
   using(var deadline=new CancellationTokenSource()){
    try{

@@ -47,8 +47,9 @@ sealed class PreampClient {
  public async Task Connect(uint nonce,CancellationToken cancel){if(nonce==0)throw new ArgumentOutOfRangeException("nonce");await gate.WaitAsync(cancel).ConfigureAwait(false);try{
   session=0;AllAmpPreamp=false;current=null;counter=nonce;if(pending!=null)nonce=pending.Session;var reply=await Request(Message(1,0,nonce),cancel).ConfigureAwait(false);
   if(Code(reply)!=0)throw new IOException("El receptor está ocupado; no se ha abierto otra sesión de controles.");
-  if(reply.Data.Length!=20||U(reply.Data,8)!=256||U(reply.Data,12)!=5||U(reply.Data,16)!=2||(U(reply.Data,4)&AssetWire.PreampControl)==0||(U(reply.Data,4)&~31u)!=0)throw new NotSupportedException("El firmware no anuncia controles de preamp compatibles.");
-  session=nonce;try{await ReadCore(cancel).ConfigureAwait(false);AllAmpPreamp=(U(reply.Data,4)&AssetWire.AllAmpPreamp)!=0;}catch{session=0;throw;}
+  if(reply.Data.Length!=20||U(reply.Data,8)!=256||U(reply.Data,12)!=5||U(reply.Data,16)!=2)throw new NotSupportedException("El firmware no anuncia controles de preamp compatibles.");
+  uint flags=U(reply.Data,4);AssetWire.ValidateCapabilities(flags);if((flags&AssetWire.PreampControl)==0)throw new NotSupportedException("El firmware no anuncia controles de preamp compatibles.");
+  session=nonce;try{await ReadCore(cancel).ConfigureAwait(false);AllAmpPreamp=(flags&AssetWire.AllAmpPreamp)!=0;}catch{session=0;throw;}
  }finally{gate.Release();}}
  public async Task<AssetReceipt> ReadAsset(byte slot,CancellationToken cancel){if(slot>=5)throw new ArgumentOutOfRangeException("slot");await gate.WaitAsync(cancel).ConfigureAwait(false);try{Need();return AssetTransfer.DecodeStatus(await Request(Message(5,slot,Next()),cancel).ConfigureAwait(false),slot);}finally{gate.Release();}}
  public async Task<PreampSnapshot> Read(CancellationToken cancel){await gate.WaitAsync(cancel).ConfigureAwait(false);try{return await ReadCore(cancel).ConfigureAwait(false);}finally{gate.Release();}}
